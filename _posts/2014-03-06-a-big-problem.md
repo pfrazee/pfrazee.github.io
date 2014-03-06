@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Building: a Big Problem
+title: A Big Problem
 ---
 
 Not a lot of people know me. It's starting to dawn on me that's so. A few people in Austin have seen me. Some of us have become friends. Most, not. My relationships have been in perpetual dysfunction. I'm usually single.
