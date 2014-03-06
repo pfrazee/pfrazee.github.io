@@ -3,9 +3,7 @@ layout: post
 title: A Big Problem
 ---
 
-Not a lot of people know me. It's starting to dawn on me that's so. A few people in Austin have seen me. Some of us have become friends. Most, not. My relationships have been in perpetual dysfunction. I'm usually single.
-
-I've come to decide something that I couldn't accept for a long time: that I can't neglect my life. Not just because it harms me; self-harm was never an issue. Personal well-being is secondary. I can tolerate pain. I'm hardy, I'm driven, I'm used to being alone. But no: the reality is, I can't neglect my life because it harms my work. Attention must be paid.
+I've come to decide something that I couldn't accept for a long time: that I can't neglect my life. Not just because it harms me; self-harm was never an issue. Personal well-being is secondary. I can tolerate pain. I'm hardy, I'm driven, I'm used to being alone. But no: the reality is, I can't neglect my life because it harms my work.
 
 What had been eating me? Anxiety, I thought. Fear, maybe. I went through a lot of explanations about it, but now I think - it resonates for me to say - it was depression. Outright, common depression. The kind I wasn't supposed to have, of course.
 
