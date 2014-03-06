@@ -1,0 +1,36 @@
+---
+layout: post
+title: Building: a Big Problem
+---
+
+Not a lot of people know me. It's starting to dawn on me that's so. A few people in Austin have seen me. Some of us have become friends. Most, not. My relationships have been in perpetual dysfunction. I'm usually single.
+
+I've come to decide something that I couldn't accept for a long time: that I can't neglect my life. Not just because it harms me; self-harm was never an issue. Personal well-being is secondary. I can tolerate pain. I'm hardy, I'm driven, I'm used to being alone. But no: the reality is, I can't neglect my life because it harms my work. Attention must be paid.
+
+What had been eating me? Anxiety, I thought. Fear, maybe. I went through a lot of explanations about it, but now I think - it resonates for me to say - it was depression. Outright, common depression. The kind I wasn't supposed to have, of course.
+
+I've heard people say depression is an issue in tech. I thought that was strange, and maybe it still is, but I didn't recognize the feeling of depression in myself for a long time. I suppressed it, and that made me anxious. I knew what I was going home to at night: an empty room, maybe another drink, maybe a talk show. Knowing that made me crazy. I didn't want to end up that way. On bad nights, it made me terrible to be around. The anxiety, the forced conversations, which I'm guilty of and have seen other tech workers commit: I see it now as depression.
+
+Not many people would guess I went to school for acting. It used to embarrass me a bit that I did -- a cliche story, doing the wild dream and coming back home to do the sensible thing. But now I appreciate it; I can appreciate what I learned there. I'll try to share a bit from it.
+
+One thing they taught me, they taught it very hard, is that I - we all - hold emotion in our bodies. It has a physical manifestation. I thought, "that's crap," until I discovered the tension in my lower back that I released and I was suddenly overwhelmed with memories of being ashamed or of failing at something. When those negative events first happened, I tensed there, and it stored itself quietly, unresolved. Our teachers called it "muscle memory."
+
+Before I identified anything as depression, maybe a year ago, I discovered there was another pain, but this time in the center of my chest. I realized I'd been ignoring it for... well, I have no idea how long, of course. It was aching, sour pain. I don't know for certain what it was, but it connected to my sense of heartache, and it was shockingly realized: a very physical sensation, like a knife in my sternum. Becoming aware of it, that's when I first broke down. That was when I started to address my problems.
+
+What I learned at school was, there's an amazing physiology to my emotion. It's bidirectional: my body and my mind are in a feedback loop. It's more accurate, maybe, to say they're a continuous organ. My favorite class was called Alexander Technique, and I'm mentioning it to put it in a good place in your head, so maybe one day you'll see an Alexander class and think, "why not?" The technically minded will appreciate its history: a man named Frederick Alexander made a room of mirrors and rigorously practiced movements, discovering the difference between what he thought he was doing and what did occur. The ideas he brought out of that culminated in methods of correct "Use," and have helped me find tensions; and, by proxy, emotions. When I practice at it, I can sometimes release them both.
+
+Tech workers are terribly susceptible to tension. Imagine what hunching and holding yourself in deep thought is doing, subtlely, every day. If you do consider it, you might try to sit up straight, and you might find it's painful or tiring, and that you can't sustain it for long. But ask, Did you really sit up straight? How sure are you of your Use? I sometimes hated hearing that from my teachers, but, over time, I did find: it's difficult to sit straight. I'd puff out my chest. I'd hold my lower back. My shoulders were uneven, God help me. I'd spent my whole life at a computer, and internalized a lot of bad habits. I needed the mirrors (and still do).
+
+None of this would have re-emerged in my mind if it didn't start to impede my work. Before I discovered that pain in my chest, I had headaches. Bad ones. I'd lose entire days to them. They dulled everything about me; made me feel stupid, useless, joyless. I started to manage my work sprints around the likelihood that I'd lose the next day, but it didn't work- it was seemingly at random. It was not good. I put them at a lower priority until it was obvious they took more time than I saved by ignoring them, and so I began to think back on the Alexandar technique. I began to go through the methods again, and I began to find the tensions and the pain, and to understand the traps that brought me there.
+
+It's terrible to go home alone every night, but it's also terrible to be distracted from a task you've invested your life into. Somebody blogged recently about how their distraction with work affects their life at parties, and I think, of course, that's true. It's true for any creative process, and there are stories of authors locking themselves away in cabins for months on end, and that's no less true for hackers, or, I'm sure, any creative professional.
+
+Perhaps you can relate to my particulars, perhaps not. I went to acting school, so I didn't have any connections. I wrote software all my life, but lived in a small town without CS jobs; I had no resume, no finished work to point to. I wanted to work on big problems, and I wanted to work against the centralizing systems and the data-mining, so the Googles and Microsofts were out. So what could I do? Reasonable or not, I locked myself up. I took side-contracts and I worked on the problems I wanted to. No distractions. Not much success, either. I had no talent for marketting the ideas, or for UX, or for connecting to people. So I continued to iterate on my own.
+
+I'd have let myself die depressed if I could still accomplish what I want with my life, but I think now that it can't be done. It makes me too terrible to be around, and too difficult to believe in. Watch "The Death of a Salesman" or "Glenn Gary, Glenn Ross" and consider what desperation does to your pitch. I think, perhaps, the lone hacker is a real thing, but as a curse, not as some unicorn of industry. The lone hacker never sells. Their project sites are bitrotting somewhere on the Web.
+
+The headaches have stopped; I can't say for sure why. I've begun to cut out some vices, hydrate more, exercise more. But, more importantly, I feel better. I'm still depressed often, but it doesn't always turn into anxiety. I have better interactions with people. The tension's going away, for now.
+
+These are my experiences. Perhaps they resonate with you; I hope not, but if they do, I hope I've encouraged you to explore what your body is telling you. It helps me to put it in professional terms. These things that I thought were soft, or separate from real work - sales, health, a social life - they're just as equally part of my career. Everyone I know is in the creative grind. It wears you down. Take care of yourself: it's part of the big problem you're tackling.
+
+~pfrazee
