@@ -3,9 +3,7 @@ title: Communicating with Web-Workers using HTTP
 layout: post
 ---
 
-*A design rationale.*
-
-See first: [In-Application Sandboxing with Web Workers](/2014/03/08/in-application-sandboxing-with-web-workers.html).
+<div class="see-also">See also: <a href="/2014/03/08/in-application-sandboxing-with-web-workers.html">In-Application Sandboxing with Web Workers</a> and <a href="/2014/03/08/applying-user-agent-behaviors.html">Applying User-Agent Behaviors in Web Applications to Enable Runtime Extension</a>.</div>
 
 Web Workers interact with their Host Pages using a messaging channel (the `postMessage` API). Crucially for their programming model, the messages are asyncronous. This introduces a significant challenge for implementing Page APIs within a Worker &ndash; for instance, how do you port a GUI widget from the Page (where it can access the DOM) to a Worker, where it can only send async messages?
 

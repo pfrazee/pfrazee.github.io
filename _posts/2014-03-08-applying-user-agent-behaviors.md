@@ -3,6 +3,8 @@ layout: post
 title: Applying User-Agent Behaviors in Web Applications to Enable Runtime Extension
 ---
 
+<div class="see-also">See also: <a href="/2014/03/08/in-application-sandboxing-with-web-workers.html">In-Application Sandboxing with Web Workers</a> and <a href="/2014/03/08/communicating-with-web-workers-using-http.html">Communicating with Web-Workers using HTTP</a>.</div>
+
 The Web uses a typed-linking standard that's simple to use, and which achieves most of the same goals of [IDLs](http://en.wikipedia.org/wiki/Interface_description_language) without resorting to complex documents (such as [WSDL](http://en.wikipedia.org/wiki/Web_Services_Description_Language)). It's most commonly used in HTML:
 
 ```html

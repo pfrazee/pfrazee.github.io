@@ -3,7 +3,7 @@ title: In-Application Sandboxing with Web Workers
 layout: post
 ---
 
-*A design rationale.*
+<div class="see-also">See also: <a href="/2014/03/08/communicating-with-web-workers-using-http.html">Communicating with Web-Workers using HTTP</a> and <a href="/2014/03/08/applying-user-agent-behaviors.html">Applying User-Agent Behaviors in Web Applications to Enable Runtime Extension</a>.</div>
 
 For the past fews years, the Web has been shifting control to the client. Given the limitations of remote services, developers are now looking for ways to ["unhost"](https://unhosted.org/) static applications &ndash; that is, break the dependency on remote servers while still using the Web platform.
 
