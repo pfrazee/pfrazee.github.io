@@ -24,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
+ol, ul { margin: 1em 2.35em 1.5em }
 
 a         { color: #00a; }
 a:hover   { color: #000; }
@@ -132,10 +133,6 @@ ul.posts span {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
-}
-
-.post ul, .post ol {
-  margin-left: 1.35em;
 }
 
 .post code {
