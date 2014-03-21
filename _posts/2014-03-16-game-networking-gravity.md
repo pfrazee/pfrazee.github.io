@@ -21,7 +21,7 @@ For this to happen, the game has to use soft-body mechanics that generates force
 
 What happens next is orbit. The further point swings around the closer point until the entire spring flips, and the variable time-dilation continues to modulate the internal spring-force into a net-gravitational effect.
 
-Don't believe me? [Check out this demo of the spring scenario](http://repl.it/Pvh/1). After you click "Run Session" on the top right, you'll see a stream of two numbers. They're the average velocity of the spring for each step of the sim, and they oscillate in a circular trajectory, suggesting orbit. Watching the positions of the two points shows the same.
+[Check out this demo of the spring scenario](http://repl.it/Pvh/1). After you click "Run Session" on the top right, you'll see a stream of two numbers. They're the average velocity of the spring for each step of the sim, and they oscillate in a circular trajectory, suggesting orbit. Watching the positions of the two points shows the same.
 
 Is this what is meant by "space-time is curved?" It's interesting that the force of gravity could be produced as a side-effect of an internal force, but I've never heard that in proper physics, so I wonder what the difference is from reality?
 
