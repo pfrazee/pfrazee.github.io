@@ -18,7 +18,7 @@ h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 ol, ul { margin: 1em 2.35em 1.5em }
 
-a         { color: #00a; }
+a         { color: #3D87E7; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
@@ -93,6 +93,12 @@ ul.posts span {
   overflow: hidden;
 }
 
+.site .footer img {
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
 .site .footer .contact {
   float: left;
   margin-right: 3em;
@@ -110,6 +116,25 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
+}
+
+.site .footer2 {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  padding-top: 1em;
+  overflow: hidden;
+}
+
+.site .footer2 a {
+  color: #3D87E7;
+  text-decoration: none;
+}
+
+.site .footer2 img {
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
 }
 
 /*****************************************************************************/
