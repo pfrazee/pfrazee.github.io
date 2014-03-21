@@ -11,16 +11,8 @@
 }
 
 html, body { height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+body { color: #555; font-family: 'Roboto', sans-serif; font-weight: 300; }
+pre, code { font-family: Consolas, "Courier New", monospace; color: #5E5E5E; background: #f5f2f0; }
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -47,7 +39,6 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
 }
 
@@ -58,8 +49,6 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
-  text-align: justify;
   width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
@@ -72,7 +61,7 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 .site .header h1.title a {
@@ -130,6 +119,10 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+.post {
+  text-align: justify;
+}
+
 .post pre {
   border: 1px solid #ddd;
   background-color: #eef;
