@@ -9,7 +9,7 @@ For the past fews years, the Web has been shifting control to the client. Given 
 
 One untapped technology for client-side control is the Web Worker Sandbox. This API lets the Page load, execute, and destroy separate Worker threads which use their own Virtual Machines. By using Worker Sandboxes to drive behavior, the Web can give users the choice of which software they run together, shifting development from a centralized SaaS model into a distributed and free (as in freedom) script-sharing model.
 
-### Worker Sandboxes can Execute Arbitrary Code
+### Worker Sandboxes to Safe-Execute Untrusted Code
 
 Virtual Machines are the technology that Browsers use to keep Pages from attacking the rest of your computer with Javascript. Their APIs give limited access to the machine (some screen space, some storage space, XHR) and are generally well-hardened against exploits. Using them has allowed the Browser to navigate the Web freely, without auditing Pages before opening them.
 
