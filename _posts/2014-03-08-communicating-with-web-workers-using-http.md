@@ -1,6 +1,7 @@
 ---
 title: Communicating with Web-Workers using HTTP
 layout: post
+desc: A design rationale.
 ---
 
 <style>strong { color: gray; }</style>

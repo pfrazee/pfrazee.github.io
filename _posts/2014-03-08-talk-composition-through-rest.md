@@ -1,6 +1,7 @@
 ---
 title: Talk - Composition Through REST
 layout: post
+desc: Given at Austin Javascript in June 2013
 ---
 
 <iframe width="640" height="390" src="//www.youtube.com/embed/g680Xv9Aa74" frameborder="0" allowfullscreen></iframe>

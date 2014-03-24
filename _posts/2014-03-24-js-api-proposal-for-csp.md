@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Javascript API proposal for CSP
+desc: While conversing with Mike West, I was told there's a need for JS API proposals for CSPs. Since this is an interest of mine, I thought I'd take a crack at it.
 ---
 
 <style>strong { color: gray; }</style>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: A Big Problem - On depression and anxiety in tech
+desc: Personal observations on maintaining well-being during demanding projects.
 ---
 
 I've come to decide something that I couldn't accept for a long time: that I can't neglect my life. Not just because it harms me; self-harm was never an issue. Personal well-being is secondary. I can tolerate pain. I'm hardy, I'm driven, I'm used to being alone. But no: the reality is, I can't neglect my life because it harms my work.
