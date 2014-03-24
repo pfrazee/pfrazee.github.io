@@ -6,9 +6,6 @@ desc: A design rationale.
 
 <style>strong { color: gray; }</style>
 
-<div class="see-also">See also: <a href="/2014/03/08/in-application-sandboxing-with-web-workers.html">In-Application Sandboxing with Web Workers</a> and <a href="/2014/03/08/applying-user-agent-behaviors.html">Applying User-Agent Behaviors in Web Applications to Enable Runtime Extension</a>.</div>
-
-
 Web Workers interact with their Host Pages using a messaging channel (the `postMessage` API). Crucially for their programming model, the messages are asyncronous. This introduces a significant challenge for implementing Page APIs within a Worker &ndash; for instance, how do you port a GUI widget from the Page (where it can access the DOM) to a Worker, where it can only send async messages?
 
 In my experience, two categories of solutions are suggested: use code-transformations to recreate Page-native APIs in the Worker, or introduce a new interface around messaging. **In this article, I'll explain why code transformations don't address the problem fully, and present a complete messaging solution based on HTTP.**
