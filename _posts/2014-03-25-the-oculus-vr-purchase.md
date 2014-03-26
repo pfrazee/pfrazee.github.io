@@ -14,7 +14,7 @@ The only nice reply to this acquisition is, "Hey, maybe Facebook **won't** touch
 
 The Oculus Rift is an exciting piece of tech, not just as an device, but as an untied piece of hardware. It's not just about what it does: it's about what it offers the software world. VR&nbsp;is&nbsp;a&nbsp;business&nbsp;opportunity &ndash; a big one.
 
-The move to it will not be small. VRUIs reset the interaction model. All the patterns which have standardized for the past thirty years get to be re-examined and re-built. For the hackers, it's really exciting: a tabula rasa.
+VRUIs reset the interaction model. All the patterns which have standardized for the past thirty years get to be re-examined. For the hackers, it's really exciting: a tabula rasa.
 
 So in the back of our heads, or in notebooks somewhere, you can bet a lot developer's project checklists lead to the same place. "Do this, do that, work on this &ndash; good you'll be ready for the Oculus release." VRUI is in a lot of people's career paths, and now Facebook has the first shot. That's really disappointing.
 
