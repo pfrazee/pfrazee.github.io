@@ -20,11 +20,9 @@ So in the back of our heads, or in notebooks somewhere, you can bet a lot develo
 
 ### Culture Clash
 
-I don't want to have to work at a specific company to work on the underlying software. Computers don't require it, and it happens frequently now as a quirk of the Web's remote-service-bound architecture. Closed architectures are anti-hacker, and they keep Facebook's offices full just as much as they keep the users in place.
+I don't want to have to work at a specific company to work on the underlying software. Computers don't require it, and it happens frequently now as a quirk of the Web's remote-service-bound architecture. Closed architectures are anti-hacker.
 
-As IT works into our social lives (as in, it's hard to leave Facebook when everyone else is on it) and as the economics flow toward platform-owners (as in, Bill Gates) you have to ask what effect there is on society when the reigns get to be held&ndash; by anyone. Are the best ideas going to win out? Will FacebookVR win by merit, or by sheer position? How many more "Worse is Better" articles can we look forward to?
-
-I take the notion that VR is going to be a new shot, with a well-developed Web, with git and GitHub, and with the hacking community ready to act like a world-wide research facility, and this... this ain't that.
+As IT works into our social lives, and as the economics flow toward platform-owners, you have to ask what effect there is on society when the reigns get to be held&ndash; by anyone. Will FacebookVR win by merit, or by sheer position?
 
 It's not like everything is closed forever, but this deal smacks of IBM's pairing with Microsoft, the guys who ripped off Apple, who are the guys who ripped off Xerox PARC&ndash; and who, for that matter, [ripped off the intentially-limited designs](http://worrydream.com/refs/Vannevar%20Bush%20Symposium%20-%20Closing%20Panel.html). OSX and Windows are third-hand knockoffs of that research team's admittedly bad ideas, and now those designs are the standard. Traction matters.
 
