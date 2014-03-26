@@ -24,7 +24,7 @@ I don't want to have to work at a specific company to work on the underlying sof
 
 As IT works into our social lives, and as the economics flow toward platform-owners, you have to ask what effect there is on society when the reigns get to be held&ndash; by anyone. Will FacebookVR win by merit, or by sheer position?
 
-It's not like everything is closed forever, but this deal smacks of IBM's pairing with Microsoft, the guys who ripped off Apple, who are the guys who ripped off Xerox PARC&ndash; and who, for that matter, [ripped off the intentially-limited designs](http://worrydream.com/refs/Vannevar%20Bush%20Symposium%20-%20Closing%20Panel.html). OSX and Windows are third-hand knockoffs of that research team's admittedly bad ideas, and now those designs are the standard. Traction matters.
+It's not like everything is closed forever, but this deal smacks of IBM's pairing with Microsoft (the guys who ripped off Apple (the guys who ripped off Xerox PARC, and who, for that matter, [ripped off the intentially-limited designs](http://worrydream.com/refs/Vannevar%20Bush%20Symposium%20-%20Closing%20Panel.html))). OSX and Windows are third-hand knockoffs of that research team's admittedly bad ideas, and now those designs are the standard. Traction matters.
 
 Let's talk about that other thing.
 
