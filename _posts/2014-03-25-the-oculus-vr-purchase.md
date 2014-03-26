@@ -1,0 +1,53 @@
+---
+title: The Oculus VR Purchase
+desc: Facebook's purchase? Not kidding, this is really upsetting.
+layout: post
+---
+
+<style>.site { max-width: 680px; } .post { text-align: justify; } strong { color: gray }</style>
+
+The news that Oculus VR has been bought by a major player would be upsetting no matter who it was &ndash; Microsoft, Google, Apple &ndash; but Facebook? Good God, why did it have to be Facebook?
+
+The only nice reply to this acquisition is, "Hey, maybe Facebook **won't** touch it." I'm holding out hope, but not much. In the mean-time, let's talk about why this is so upsetting.
+
+### Closing doors
+
+The Oculus Rift is an exciting piece of tech, not just as an device, but as an untied piece of hardware. It's not just about what it does: it's about what it offers the software world. **VR&nbsp;is&nbsp;a&nbsp;business&nbsp;opportunity &ndash; a massive one.**
+
+The move to it will not be small. VRUIs reset the interaction model. All the patterns which have standardized for the past thirty years get to be re-examined and re-built. For the hackers, it's really exciting: a tabula rasa.
+
+So in the back of our heads, or in notebooks somewhere, you can be a lot developer's project checklists lead to the same place. "Do this, do that, work on this &ndash; good you'll be ready for the Oculus release." VRUI is in a lot of people's career paths.
+
+Now, it's in Facebook employee's career paths.
+
+### Culture Clash
+
+I don't want to have to work at a specific company to work on the underlying software. It should not be a pre-requisite! Computers don't require it, and it happens frequently now as a quirk of the Web's remote-service-bound architecture. **Closed architectures are anti-hacker, and they keep Facebook's offices full just as much as they keep the users in place.**
+
+As IT dominates the flow of society (as in, it's hard to leave Facebook when everyone else is on it) and as the economics flow toward platform-owners (as in, Bill Gates) you have to ask what effect there is on society when the reigns get to be held&ndash; by anyone. Are the best ideas going to win out? Will FacebookVR win by merit, or by sheer position? How many more "Worse is Better" articles can we look forward to?
+
+You'd like to think VR is going to be a new shot, with a well-developed Web, with git and GitHub, and with the hacking community ready to act like a world-wide research facility. Instead, nope, it'll be the offices of Facebook.
+
+It's not like everything is closed forever. I'm sure we'll get to play, and I'm sure alternatives will emerge. It's just: this deal smacks of IBM's pairing with Microsoft, the guys who stole from Apple, who are the guys who stole from Xerox PARC&ndash; and who, for that matter, [stole the intentially-limited designs](http://worrydream.com/refs/Vannevar%20Bush%20Symposium%20-%20Closing%20Panel.html). OSX and Windows are third-hand knockoffs of that research team's admittedly bad ideas, and now their designs are the standard.
+
+Let's talk about that other thing.
+
+### IT Ethics
+
+Hosting people's personal data in a corporate database is wrong, flatly wrong. It's wrong for anybody, but Facebook's the most active offenders. Friend lists, personal photos, relationships, messages &ndash; even though users give them up freely, it's wrong to take them. Consider how damaging that dataset can be under security breaches, or government overreach, or the desperate need to monetize Facebook Inc. as it reaches its latter days.
+
+**IT ethics means that you use your expertise to actively protect sensitive information.** They don't do that, and there can be &ndash; will be &ndash; consequences. If anybody could have pushed an effective self-hosting platform to segment the social dataset, it's them, but they haven't. You can list any number of frustrations, but that's where the buck stops: they had position, they could've done the ethical thing, and they didn't.
+
+### And after all that support
+
+To quote my friend <a href="https://twitter.com/justin_winslow">Justin Winslow</a>: "Oculus was a Kickstarter project? Do the contributors get cash monies in the buy out? That seems pretty fucked."
+
+I can't begin to imagine what the *need* for this buyout was. Oculus VR had just raised a $75MM Series B and was effortlessly selling pre-orders to their second iteration of the developer's kit. If Facebook brings Oculus anything other than a software team to work on The Ordained VRUI Platform, I'll eat my hat &ndash; but of course, that's exactly what this is for.
+
+VRUIs are going to decide the next generations of computing. I can't think of anything worse than Facebook being on the forefront of that, and that's what this deal buys them. Meanwhile, it buys Oculus VR what they (excitingly) didn't originally take: pole position in the software front.
+
+### An open letter
+
+Palmer, you have an amazing piece of technology with nowhere to go but up, but you've hitched your wagon to a real loser. If you can find the undo button, please, find it quick.
+
+~pfrazee
