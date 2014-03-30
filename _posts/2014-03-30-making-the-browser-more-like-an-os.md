@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making the browser more like an OS
-desc: Bad ideas, good ideas, where the project is now
+desc: A few observations.
 ---
 
 I'll start this with an assertion by Alan Kay in his 2009 lecture, "Normal Considered Harmful:"
