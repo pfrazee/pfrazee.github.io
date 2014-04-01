@@ -8,7 +8,7 @@ A few journal notes as I watch old videos.
 
 <br>
 
-**Video**: [NExT vs SUN](https://www.youtube.com/watch?v=oc40mLKRx7g)
+**Video**: [NeXT vs SUN](https://www.youtube.com/watch?v=oc40mLKRx7g)
 
 **Thoughts**: Funny little video. There's an open question that I want to answer, which is whether you really need "modes" (applications) which are tightly optimized to a particular usecase, or whether a unified HCI can actually cover all kinds of interactions and do so in a nice way. There are a couple of reasons why I'm wondering about this.
 
