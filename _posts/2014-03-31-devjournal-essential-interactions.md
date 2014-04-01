@@ -12,11 +12,11 @@ A few journal notes as I watch old videos.
 
 **Thoughts**: Funny little video. There's an open question that I want to answer, which is whether you really need "modes" (applications) which are tightly optimized to a particular usecase, or whether a unified HCI can actually cover all kinds of interactions and do so in a nice way. There are a couple of reasons why I'm wondering about this.
 
- 1. System-awareness. In a more powerful graphics environment with zooming, high entity count, levels of detail &ndash; and for that matter, HMDs &ndash; you have a lot more canvas to fill with information. Modern GUIs tend to hide a lot to optimize a workflow, but, taking from the original RTS inspiration for Layer1, things like scrollable maps with minimaps show you can actually pack in a lot more info.
+ 1. System-awareness. In a more powerful graphics environment with zooming, high entity count, levels of detail &ndash; and for that matter, HMDs &ndash; you have a lot more canvas to fill with information. Modern GUIs tend to hide a lot to optimize a workflow, but, taking from the original RTS inspiration for Layer1, things like scrollable maps with minimaps show you can actually pack in a lot more state.
 
  2. Flexibility. Applications follow a binary mindset where there's the development vs the use. I don't think there should be a divide. Rather, I think people should be able to construct new tools on the fly.
 
-So it's particularly interesting watching the GUI builder in this video, because there is an "on-the-fly" concept at work here, but it's not a very satisfying one because the units of assembly are so mundane. Interface elements like textfields and buttons don't speak to the inner structures of the system; they're artiface which could be naturally handled in a more elegant HCI. Since the SUN and NeXT PCs are made of blackbox applications, the HCI systems can't really be of service except to give them GUI primitives and a mostly-automated way to connect them to the blackbox's endpoints.
+So it's particularly interesting watching the GUI builder in this video, because there is an "on-the-fly" concept at work here, but it's not a very satisfying one because the units of assembly are so mundane. Interface elements like textfields and buttons don't speak to the inner structures of the system; they're artifice which could be naturally handled in a more elegant HCI. Since the SUN and NeXT PCs are made of blackbox applications, the HCI systems can't really be of service except to give them GUI primitives and a mostly-automated way to connect them to the blackbox's endpoints.
 
 <br>
 
