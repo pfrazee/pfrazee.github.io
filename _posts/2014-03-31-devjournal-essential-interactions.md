@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Essential Interactions
+title: Essential Interactions (Layer1 Devlog)
 desc: A few journal notes as I watch old videos
 ---
 
