@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hosting Services in the Browser
-desc: A solution to privacy and user autonomy.
+desc: How to improve user privacy and autonomy by treating the browser as a local cloud platform.
 recommended: 1
 ---
 
