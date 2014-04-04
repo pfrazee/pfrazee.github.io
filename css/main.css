@@ -22,6 +22,8 @@ a         { color: #3D87E7; }
 a:hover   { color: #000; }
 a:visited { color: #000; }
 
+blockquote { padding: 5px 2em; border-left: 1em solid #eee; }
+
 /*****************************************************************************/
 /*
 /* Home

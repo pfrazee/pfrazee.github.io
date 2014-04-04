@@ -1,12 +1,12 @@
 ---
 layout: post
 title: Javascript API proposal for CSP
-desc: While conversing with Mike West, I was told there's a need for JS API proposals for CSPs. Since this is an interest of mine, I thought I'd take a crack at it.
+desc: I was told there's a need for JS API proposals for CSPs. Since this is an interest of mine, I thought I'd take a crack at it.
 ---
 
 <style>strong { color: gray; }</style>
 
-While conversing with Mike West, I was told there's a need for JS API proposals for CSPs. Since this is an interest of mine, I thought I'd take a crack at it. He pointed me to a few reference points to get started:
+I was told there's a need for JS API proposals for CSPs. Since this is an interest of mine, I thought I'd take a crack at it. He pointed me to a few reference points to get started:
 
  - [Use-Case Zero](http://infrequently.org/2013/05/use-case-zero/)
  - [An Extensible Approach to Browser Security Policy](http://yehudakatz.com/2013/05/24/an-extensible-approach-to-browser-security-policy/)
