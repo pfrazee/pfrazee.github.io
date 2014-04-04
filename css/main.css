@@ -35,6 +35,8 @@ ul.posts {
 
 ul.posts li {
   margin-bottom: 20px;
+border: 1px solid #f0f0f0;
+padding: 10px 15px;
 }
 
 ul.posts li a { text-decoration: none; }
@@ -47,7 +49,7 @@ ul.posts span {
 
 ul.posts .desc { color: #333; }
 
-span.recommended , ul.posts .recommended a { background: #eee; padding: 2px 3px; border-radius: 2px; text-decoration: none; border: 1px solid #ccc; }
+span.recommended , ul.posts .recommended a { font-weight: bold; }
 
 /*****************************************************************************/
 /*
