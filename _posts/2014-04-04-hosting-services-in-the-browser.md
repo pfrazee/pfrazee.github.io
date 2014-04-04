@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Hosting Services in the Browser
-desc: Solutions to privacy and user autonomy.
+desc: A solution to privacy and user autonomy.
+recommended: 1
 ---
 
 In his post [The Next Mission](https://brendaneich.com/2014/04/the-next-mission/), Brendan Eich talks about tackling the "network problem" which creates user-data capture.
