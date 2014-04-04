@@ -2,6 +2,7 @@
 layout: post
 title: Applying User-Agent Behaviors in Web Applications
 desc: A description of using typed links to drive client and server interactions.
+recommended: 1
 ---
 
 <style>strong { color: gray; }</style>

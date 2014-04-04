@@ -1,7 +1,8 @@
 ---
 title: In-Application Sandboxing with Web Workers
 layout: post
-desc: Concepts for the new Web-plugins architecture, and what we'd gain by it.
+desc: Concepts for a new Web-plugins architecture, and what we'd gain by it.
+recommended: 1
 ---
 
 <style>strong { color: gray; }</style>

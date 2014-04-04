@@ -2,6 +2,7 @@
 layout: post
 title: The Mandatory Alan Kay
 desc: Sure, you know Alan Kay wrote Smalltalk, coined "Object-Oriented," and helped establish modern GUIs at Xerox PARC &ndash; but have you ever heard his talks?
+recommended: 1
 ---
 
 Sure, you know Alan Kay wrote Smalltalk, coined "Object-Oriented," and helped establish modern GUIs at Xerox PARC &ndash; but have you ever heard his talks?

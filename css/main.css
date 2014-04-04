@@ -11,7 +11,7 @@
 }
 
 html, body { height: 100%; }
-body { color: #555; font-family: 'Roboto', sans-serif; font-weight: 300; }
+body { color: #555; font-family: 'Roboto', sans-serif; font-weight: 300; padding: 0 15px; }
 pre, code { font-family: Consolas, "Courier New", monospace; color: #5E5E5E; background: #f5f2f0; }
 
 h1 { margin-bottom: 1em; }
@@ -37,12 +37,17 @@ ul.posts li {
   margin-bottom: 20px;
 }
 
+ul.posts li a { text-decoration: none; }
+ul.posts li a:hover { text-decoration: underline; }
+
 ul.posts span {
   color: #aaa;
   font-size: 80%;
 }
 
 ul.posts .desc { color: #333; }
+
+span.recommended , ul.posts .recommended a { background: #eee; padding: 2px 3px; border-radius: 2px; text-decoration: none; border: 1px solid #ccc; }
 
 /*****************************************************************************/
 /*

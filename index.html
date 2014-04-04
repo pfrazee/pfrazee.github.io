@@ -7,10 +7,11 @@ title: Building
 <div id="home">
   <ul class="posts">
     {% for post in site.posts %}
-      <li>
+      <li{% if post.recommended %} class="recommended"{% endif %}>
       	<span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a><br>
       	<span class="desc">{{ post.desc }}</span>
       </li>
     {% endfor %}
   </ul>
+  <p>Posts with <span class="recommended">this border</span> are recommended for new visitors.</p>
 </div>
