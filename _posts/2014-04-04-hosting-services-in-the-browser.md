@@ -20,7 +20,7 @@ In his post [The Next Mission](https://brendaneich.com/2014/04/the-next-mission/
 	</ol>
 </blockquote>
 
-Because these questions are the focus of my interests, and because Eich's post asks for ideas, I'd like to offer my input.
+Because these questions are the focus of my interests, I'll use them as the context for this post.
 
 <br>
 ## Solving capture
