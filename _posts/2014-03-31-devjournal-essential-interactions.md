@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Essential Interactions (Layer1 Devlog)
-desc: A few journal notes as I watch old videos
+desc: Notes re&#58; early GUI designs.
 ---
 
-A few journal notes as I watch old videos.
+Notes re&#58; early GUI designs.
 
 <br>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A Game Networking Algorithm that Produces... Gravity?
-desc: Seriously though.
+title: A Game Networking Algorithm that Produces a Gravitational Attraction
+desc: Applying variable simulation time-steps across the two ends of a spring in motion can produce attraction toward an external point through the modulation of its spring&nbsp;force.
 ---
 
 Recently, I've been following the work of [Mikola Lysenko](https://twitter.com/MikolaLysenko) as he explores novel solutions to large-scale network games (up to MMO-scale). He [has blogged recently about maintaining ordered state when the network is overloaded](http://0fps.net/2014/02/26/replication-in-networked-games-spacetime-consistency-part-3/), and explains an algorithm for slowing down the game around high-latency players when they are likely to have an interaction with something important &ndash; like, for instance, a rocket.

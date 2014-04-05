@@ -1,16 +1,13 @@
 ---
 layout: post
 title: The Mandatory Alan Kay
-desc: Sure, you know Alan Kay wrote Smalltalk, coined "Object-Oriented," and helped establish modern GUIs at Xerox PARC &ndash; but have you ever heard his talks?
-recommended: 1
+desc: Three talks I enjoy.
 ---
-
-Sure, you know Alan Kay wrote Smalltalk, coined "Object-Oriented," and helped establish modern GUIs at Xerox PARC &ndash; but have you ever heard his talks?
 
 <br>
 ## Doing with images makes symbols
 
-Kay starts with history-in-demos of GUIs, including videos of [Sutherland's Sketchpad](http://en.wikipedia.org/wiki/Sketchpad), [Englebart's Mother of all Demos](http://en.wikipedia.org/wiki/The_Mother_of_All_Demos), and PARC's research. He then shares some insights on human learning, including a "20-minute tennis lesson" that will make you think.
+Kay starts with history-in-demos of GUIs, including videos of [Sutherland's Sketchpad](http://en.wikipedia.org/wiki/Sketchpad), [Englebart's Mother of all Demos](http://en.wikipedia.org/wiki/The_Mother_of_All_Demos), and PARC's research. He then shares some insights on human learning, including a "20-minute tennis lesson."
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/kzDpfk8YhlE" frameborder="0" allowfullscreen></iframe>
 
@@ -24,7 +21,7 @@ A detailed criticism of the state-of-the-industry in 1997, and a walk-through of
 <br>
 ## Normal considered harmful
 
-More provocations against the industry, this time aimed specifically at the browser and the "pop culture" of comp sci. A prompt to challenge your assumptions and push for something better than what we have.
+A criticism of industry culture and modern architectural decisions.
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/FvmTSpJU-Xc" frameborder="0" allowfullscreen></iframe>
 

@@ -1,8 +1,7 @@
 ---
 title: In-Application Sandboxing with Web Workers
 layout: post
-desc: Concepts for a new Web-plugins architecture, and what we'd gain by it.
-recommended: 1
+desc: Using Workers to host plugins for Web applications.
 ---
 
 <style>strong { color: gray; }</style>
