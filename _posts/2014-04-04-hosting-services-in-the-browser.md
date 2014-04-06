@@ -5,7 +5,7 @@ desc: Improving user privacy and autonomy by treating the browser as a local clo
 recommended: 1
 ---
 
-User-data capture by centralized services on the Web is the result of fixed reliance on upstream decisions. Because there is no process model in the application layer, there is no opportunity to reconfigure individual components in the downloaded software. The scripts are merged into a single program.
+User capture on the Web is the result of fixed reliance on upstream decisions. Because there is no process model in the application layer, there is no opportunity to reconfigure individual components in the software. The scripts are merged into a single program.
 
 By instead splitting Web applications into multiple processes using <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/Performance/Using_web_workers">Web Workers</a>, we can disentangle the hard dependencies created by a shared memory-space. Users can then change components at runtime by loading new programs.
 
