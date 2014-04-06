@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trying an RTS interface to web services
+title: Trying an RTS interface to web services (Layer1)
 desc: An idea I've been kicking around for a while
 ---
 
