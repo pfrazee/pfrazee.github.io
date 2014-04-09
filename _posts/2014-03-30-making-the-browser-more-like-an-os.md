@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making the browser more like an OS
-desc: Observations.
+desc: What would it take to run programs inside of Web apps?
 ---
 
 I'll start this with an assertion by Alan Kay in his 2009 lecture, "Normal Considered Harmful:"
