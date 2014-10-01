@@ -60,7 +60,7 @@ span.recommended , ul.posts .recommended a { font-weight: bold; }
 /*****************************************************************************/
 
 .site {
-  max-width: 960px;
+  max-width: 760px;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
