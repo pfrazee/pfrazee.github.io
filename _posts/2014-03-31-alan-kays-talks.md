@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Mandatory Alan Kay
+title: Alan Kay's Talks
 desc: Three talks I enjoy.
 ---
 
