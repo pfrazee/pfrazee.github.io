@@ -10,22 +10,14 @@ A Usability Evaluation of PGP 5.0
 
 
 > **USER ERRORS CAUSE OR CONTRIBUTE TO MOST COMPUTER SECURITY FAILURES, yet user interfaces
-for security still tend to be clumsy, confusing, or near nonexistent.** Is this simply because
-of a failure to apply standard user interface design techniques to security? We argue that,
-on the contrary, effective security requires a different usability standard, and that it will
-not be achieved through the user interface design techniques appropriate to other types
-of consumer software.
+for security still tend to be clumsy, confusing, or near nonexistent.**
 
-> To test this hypothesis, we performed a case study of a security program that does have a
-good user interface by general standards: PGP 5.0. ... The analysis found a number of user interface design flaws that may contribute
-to security failures, and the user test demonstrated that **when our test participants were
+> ... **when our test participants were
 given 90 minutes in which to sign and encrypt a message using PGP 5.0, the majority of
 them were unable to do so successfully.**
 
-
-While reading, keep in mind that this study employed novices who did not have security as their primary goal.
-Their users' primary goal was to send email.
-Security was something they had to deal with *as well*.
+A user study conducted with 12 security novices attempting to use PGP to send an encrypted email.<br>
+Hold on to your butts.
 
 <p style="text-align: center"><img src="/img/pgp1.png"></p>
 
