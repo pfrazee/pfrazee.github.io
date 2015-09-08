@@ -17,11 +17,10 @@ pre, code { font-family: Consolas, "Courier New", monospace; color: #5E5E5E; bac
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 ol, ul { margin: 1em 2.35em 1.5em }
-ul ul { margin-top: 0; }
+ul ul { margin-top: 0; margin-bottom: 0; }
 
 a         { color: #3D87E7; }
 a:hover   { color: #000; }
-a:visited { color: #000; }
 
 blockquote { padding: 5px 2em; border-left: 1em solid #eee; }
 
@@ -74,6 +73,7 @@ span.recommended , ul.posts .recommended a { font-weight: bold; }
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 0.5em;
+  font-size: 15px;
 }
 
 .site .header h1.title a {
