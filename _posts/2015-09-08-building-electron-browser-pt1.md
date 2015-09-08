@@ -311,7 +311,7 @@ var BrowserPage = React.createClass({
 })
 ```
 
-![screen shot 2015-08-27 at 11 18 45 pm](/img/building-electron-browser-pt1/Screen shot 2015-08-27 at 11.18.45 PM.png)
+![screen shot 2015-08-27 at 11 18 45 pm](/img/building-electron-browser-pt1/Screen Shot 2015-08-27 at 11.18.45 PM.png)
 
 The `<webview>` element is added by Electron.
 It behaves mostly like an iframe, but it runs in a separate process from the containing element, and it has additional APIs.
