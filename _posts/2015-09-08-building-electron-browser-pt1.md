@@ -3,6 +3,9 @@ layout: post
 title: Writing a Browser UI, for Electron, with React. (1/4)
 desc: Speccing the UI components.
 ---
+ 
+ - Part 1
+ - [Part 2](/2015/09/09/building-electron-browser-pt1.html)
 
 Recently, I was convinced that React can help me write more correct UI code.
 To dive into it, I thought it'd be fun to write a browser chrome for Electron.
