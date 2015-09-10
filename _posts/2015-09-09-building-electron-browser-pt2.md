@@ -6,6 +6,7 @@ desc: Connecting the page's webview to the navbar, and adding tabs.
 
  - [Part 1](/2015/09/08/building-electron-browser-pt1.html)
  - Part 2
+ - [Part 3](/2015/09/10/building-electron-browser-pt3.html)
 
 Last night, [I specced the components to the browser's UI](/2015/09/08/building-electron-browser-pt1.html).
 Today, I'm going to add styles and begin connecting the page's webview to the navbar.

@@ -5,7 +5,8 @@ desc: Speccing the UI components.
 ---
  
  - Part 1
- - [Part 2](/2015/09/09/building-electron-browser-pt1.html)
+ - [Part 2](/2015/09/09/building-electron-browser-pt2.html)
+ - [Part 3](/2015/09/10/building-electron-browser-pt3.html)
 
 Recently, I was convinced that React can help me write more correct UI code.
 To dive into it, I thought it'd be fun to write a browser chrome for Electron.
