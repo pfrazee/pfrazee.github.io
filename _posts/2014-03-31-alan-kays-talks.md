@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Alan Kay's Talks
-desc: Three talks I enjoy.
+title: Talks by Alan Kay
 ---
 
 <br>

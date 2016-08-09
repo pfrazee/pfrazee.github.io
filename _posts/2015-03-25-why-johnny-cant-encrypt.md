@@ -4,25 +4,10 @@ title: Why Johnny Can't Encrypt
 desc: A Usability Evaluation of PGP 5.0
 ---
 
-A Usability Evaluation of PGP 5.0
-
-[https://www.cs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/OReilly.pdf](https://www.cs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/OReilly.pdf)
-
-
-> **USER ERRORS CAUSE OR CONTRIBUTE TO MOST COMPUTER SECURITY FAILURES, yet user interfaces
-for security still tend to be clumsy, confusing, or near nonexistent.**
-
-> ... **when our test participants were
-given 90 minutes in which to sign and encrypt a message using PGP 5.0, the majority of
-them were unable to do so successfully.**
-
-A user study conducted with 12 security novices attempting to use PGP to send an encrypted email.<br>
-Hold on to your butts.
+A user study was conducted with 12 security novices attempting to use PGP.
+Here are the results.
 
 <p style="text-align: center"><img src="/img/pgp1.png"></p>
-
-
-<h2 style="margin-bottom: 1em">Results of the User Study</h2>
 
 
 > Three of the twelve test participants (P4, P9, and P11) accidentally emailed the secret to
@@ -57,20 +42,5 @@ secret in an email encrypted with the five public keys he had generated. Even af
 receiving feedback that the team members were unable to decrypt his email, he did not
 manage to recover from this error.
 
-<p style="text-align: center"><img style="max-width: 100%" src="/img/facepalm.jpg"></p>
-
-<h2 style="margin-bottom: 1em">Final analysis</h2>
-
-> All this failure is despite the fact that PGP 5.0 is attractive, with basic operations neatly
-represented by buttons with labels and icons, and pull-down menus for the rest
-
-> ...and
-despite the fact that it is simple to use for those who already understand the basic models
-of public key cryptography and digital signature-based trust.
-
-> Standard usability evaluation methods, simplistically applied, may treat security functions
-as if they were primary rather than secondary goals for the user, leading to faulty
-conclusions.
-
-For more in-depth reading, [get the full paper here](https://www.cs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/OReilly.pdf).
+[Full paper](https://www.cs.berkeley.edu/~tygar/papers/Why_Johnny_Cant_Encrypt/OReilly.pdf).
 

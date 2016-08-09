@@ -1,21 +1,13 @@
----
-layout: post
-title: Writing a Browser UI, for Electron, with React. (3/4)
-desc: Page search and status-bar.
----
+*This post is the third in a series about building a browser with [Electron](http://electron.atom.io/), [React](http://facebook.github.io/react/), and [Secure Scuttlebutt](https://github.com/ssbc/secure-scuttlebutt).*
 
- - [Part 1](/2015/09/08/building-electron-browser-pt1.html)
- - [Part 2](/2015/09/09/building-electron-browser-pt2.html)
- - Part 3
-
-Yesterday, [I implemented the tabs, navbar, and page behaviors](/2015/09/09/building-electron-browser-pt2.html).
+Yesterday, [I implemented the tabs, navbar, and page behaviors](/2015/08/27/building-a-browser-pt1.html).
 Today, I'm going to do some UI tweaking, and add page-search and status-bar hover states.
 
 ## UI Tweak: Tab Widths
 
-![fullwidth-tabs](/img/building-electron-browser-pt3/fullwidth-tabs.gif)
+**todo - fullwidth-tabs.gif**
 
-I had the idea when I woke up, to make tabs flex to fill their full space.
+I had the idea when I woke up to make tabs flex to fill their full space.
 
 ```css
 #browser-tabs {
@@ -25,14 +17,12 @@ I had the idea when I woke up, to make tabs flex to fill their full space.
   flex: 1;
 }
 ```
-<br>
 
 ## Commit
 
 ```
 git commit -m "ui tweak: tabs flex to fill horizontally"
 ```
-<br>
 
 ## Page search
 
@@ -44,7 +34,7 @@ Looks like the answer is the webview API, [executeJavaScript](https://github.com
 To trigger search, I'll probably use Electron's menu API, which lets me set hotkeys on the commands.
 For now, I'm going to register a keydown event handler:
 
-`browser.jsx`
+`browser.jsx
 
 ```js
 /*function createPageObject () {
@@ -141,23 +131,19 @@ var BrowserPage = React.createClass({
 })*/
 ```
 
-That `query` value needs to be escaped, to make sure it doesn't inject JS.
-I'm leaving that as an exercise for the reader.
-
-![pagesearch](/img/building-electron-browser-pt3/pagesearch.gif)
+**todo - pagesearch.gif**
 
 ## Commit
 
 ```
 git commit -m "add page search"
 ```
-<br>
 
 ## A Wild Pageclose Bug Appears
 
 Check this out:
 
-![pageclose-bug](/img/building-electron-browser-pt3/pageclose-bug.gif)
+**todo - pageclose-bug.gif**
 
 When tabs are closed to the *left* of active tabs, the webviews go out of sync with their pages.
 What appears to happen is, the closed tab's webview doesn't go away.
@@ -203,7 +189,6 @@ The render functions just return early if the page is null.
 ```
 git commit -m "fix: page-close no longer unsyncs webviews with their tabs"
 ```
-<br>
 
 ## Hover Status
 
@@ -287,7 +272,7 @@ var Browser = React.createClass({
 })
 ```
 
-![statushover](/img/building-electron-browser-pt3/statushover.gif)
+**todo - statushover.gif**
 
 ## Commit
 
@@ -298,16 +283,24 @@ git commit -m "add status line to hovered webview links"
 Let's check the todo list:
 
 - Navbar
-  - **Navigation Btns: Home, Back, Forward, Refresh** - done
-  - **Location Bar** - done
-- **Page Tabs** - done
+  - **Navigation Btns: Home, Back, Forward, Refresh**
+  - **Location Bar**
+  - SSB Network-sync Status
+- **Page Tabs**
 - Page View
-  - **Content webview** - done
+  - **Content webview**
+  - SSB browsing
+  - APIs
+  - API permissioning
   - **Page-search**
   - Context menu
   - **Status bar, driven by hover-state**
+  - Devtools
+- Main Menu
+- Keyboard shortcuts
 
-Ok, another day done, and one more item left.
+Ok, another day done.
+I think, tomorrow, I'll spend time on the context-menu, which I think will require some fairly detailed behaviors.
 
 Be well.
 [-pfraze](https://twitter.com/pfrazee)
