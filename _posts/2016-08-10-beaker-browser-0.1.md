@@ -84,7 +84,7 @@ I'm talking with the protocol teams about how to improve the issue. <a href="#4"
 <br>
 ## Download now
 
-Read the docs and get the source at [https://github.com/pfrazee/beaker](https://github.com/pfrazee/beaker).
+Read the docs, download the OSX binary, or get the source at [https://github.com/pfrazee/beaker](https://github.com/pfrazee/beaker).
 
 
 Thanks for checking out the software.
