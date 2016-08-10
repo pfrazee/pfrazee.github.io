@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Talks by Alan Kay
-banner: alankay.png
+banner: alankay.jpg
 ---
 
 <br>

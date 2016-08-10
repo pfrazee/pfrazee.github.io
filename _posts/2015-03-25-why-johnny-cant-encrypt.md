@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Johnny Can't Encrypt
-banner: whyjohnnycantencrypt.png
+banner: whyjohnnycantencrypt.jpg
 ---
 
 A user study was conducted with 12 security novices attempting to use PGP.

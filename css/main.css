@@ -62,12 +62,15 @@ span.recommended , ul.posts .recommended a { font-weight: bold; }
 
 .banner {
   width: 100%;
+  margin-bottom: -220px;
 }
 
 .site {
   max-width: 800px;
   margin: 3em auto 2em;
   line-height: 1.5em;
+  position: relative;
+  z-index:2;
 }
 
 .site.layout-default {
@@ -97,8 +100,21 @@ span.recommended , ul.posts .recommended a { font-weight: bold; }
   font-size: 15px;
 }
 
-.site .meta {
+.site.layout-post .header a {
+  color: #ccc;
+}
+
+.site.layout-post .header a:hover {
   color: #aaa;
+}
+
+.site.layout-post h2.title {
+  color: #fff;
+}
+
+.site .meta {
+  color: #ccc;
+  margin-bottom: 3em;
 }
 
 .site .footer {
