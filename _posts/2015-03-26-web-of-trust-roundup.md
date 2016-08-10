@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Web of Trust
+banner: web.jpg
 ---
 
 

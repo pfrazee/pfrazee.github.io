@@ -11,7 +11,7 @@
 }
 
 html, body { height: 100%; }
-body { color: #555; font-family: 'Roboto', sans-serif; font-weight: 300; padding: 0 15px; font-size: 21px; }
+body { color: #555; font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 21px; }
 pre, code { font-family: Consolas, "Courier New", monospace; color: #5E5E5E; background: #f5f2f0; }
 
 h1 { margin-bottom: 1em; }
@@ -23,6 +23,11 @@ a         { color: #3D87E7; text-decoration: none; }
 a:hover   { color: #0D57B7; }
 
 blockquote { padding: 5px 2em; border-left: 1em solid #eee; }
+
+
+body.layout-default {
+  background: url(/img/home.jpg);
+}
 
 /*****************************************************************************/
 /*
@@ -55,10 +60,20 @@ span.recommended , ul.posts .recommended a { font-weight: bold; }
 /*
 /*****************************************************************************/
 
+.banner {
+  width: 100%;
+}
+
 .site {
   max-width: 800px;
   margin: 3em auto 2em;
   line-height: 1.5em;
+}
+
+.site.layout-default {
+  background: #fff;
+  padding: 1.5em 2em 0.75em;
+  border-radius: 2px;
 }
 
 .site .header a {

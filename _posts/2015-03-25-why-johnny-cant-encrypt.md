@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Johnny Can't Encrypt
-desc: A Usability Evaluation of PGP 5.0
+banner: whyjohnnycantencrypt.png
 ---
 
 A user study was conducted with 12 security novices attempting to use PGP.

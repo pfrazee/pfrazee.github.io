@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Computing Trust
+banner: computing-trust.jpg
 ---
 
 <br>
