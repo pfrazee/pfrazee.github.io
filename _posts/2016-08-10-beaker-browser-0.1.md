@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Beaker Browser 0.1. Navigate sites on IPFS and Dat.
+title: Beaker Browser 0.1 - Navigate sites on IPFS and Dat
 banner: beaker.jpg
 ---
 
