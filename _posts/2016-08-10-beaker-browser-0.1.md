@@ -2,6 +2,8 @@
 layout: post
 title: Beaker Browser 0.1 - Navigate sites on IPFS and Dat
 banner: beaker.jpg
+thumb: beaker-thumb.png
+desc: Beaker is a new browser for IPFS and Dat. It's licensed MIT, and supports plugins for adding new protocols and Web APIs. Beaker was started two months ago...
 ---
 
 [Beaker Browser](https://github.com/pfrazee/beaker) version 0.1.0 has been released today.
@@ -12,7 +14,9 @@ It supports basic browsing features like bookmarks and history, integrates [IPFS
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/nKHJ4rLN9mo" frameborder="0" allowfullscreen></iframe></center>
 
 <br>
-Project URL: [https://github.com/pfrazee/beaker](https://github.com/pfrazee/beaker). Licensed modified MIT.
+Project URL: [https://github.com/pfrazee/beaker](https://github.com/pfrazee/beaker).
+Licensed modified MIT.
+Built on Electron.
 
 <br>
 ## Background

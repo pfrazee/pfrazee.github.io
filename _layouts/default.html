@@ -13,6 +13,16 @@
         <link rel="stylesheet" href="/css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
 
+        <!-- social woo woo -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@pfrazee" />
+        <meta name="twitter:creator" content="@pfrazee">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.desc }}">
+        {% if page.thumb %}
+          <meta name="twitter:image" content="{{ site.url }}/img/{{ page.thumb }}">
+        {% endif %}
+
     </head>
     <body class="layout-{{ page.layout }}">
 

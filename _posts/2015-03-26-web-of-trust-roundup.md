@@ -2,6 +2,7 @@
 layout: post
 title: The Web of Trust
 banner: web.jpg
+desc: A collection of papers about creating trust without centralized authorities.
 ---
 
 

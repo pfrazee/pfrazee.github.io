@@ -2,6 +2,7 @@
 layout: post
 title: Talks by Alan Kay
 banner: alankay.jpg
+desc: A collection of talks by the father of the GUI and OO, Alan Kay
 ---
 
 <br>

@@ -2,6 +2,7 @@
 layout: post
 title: Why Johnny Can't Encrypt
 banner: whyjohnnycantencrypt.jpg
+desc: A user study was conducted with 12 security novices attempting to use PGP. Here are the results.
 ---
 
 A user study was conducted with 12 security novices attempting to use PGP.

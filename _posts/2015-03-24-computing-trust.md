@@ -2,6 +2,7 @@
 layout: post
 title: Computing Trust
 banner: computing-trust.jpg
+desc: A collection of papers about handling trust in distributed computing.
 ---
 
 <br>
