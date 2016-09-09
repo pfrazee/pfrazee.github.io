@@ -1,55 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    {% if page.title %}
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+    {% else %}
+        <title>{{ site.name }}</title>
+    {% endif %}
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <meta name="description" content="{{ site.description }}">
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
-        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    {% if site.google_verification %}
+        <meta name="google-site-verification" content="{{ site.google_verify }}">
+    {% endif %}
 
-        <!-- social woo woo -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@pfrazee" />
-        <meta name="twitter:creator" content="@pfrazee">
-        <meta name="twitter:title" content="{{ page.title }}">
-        <meta name="twitter:description" content="{{ page.desc }}">
-        {% if page.thumb %}
-          <meta name="twitter:image" content="{{ site.url }}/img/{{ page.thumb }}">
-        {% endif %}
+    <link rel="icon" href="/assets/img/favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+</head>
 
-    </head>
-    <body class="layout-{{ page.layout }}">
+<body>
 
-        {% if page.banner %}
-          <img class="banner" src="/img/{{ page.banner }}">
-        {% endif %}
+    <div class="wrapper">
+        {{ content }}
+    </div>
 
-        <div class="site layout-{{ page.layout }}">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-          </div>
+</body>
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="https://github.com/pfrazee"><img src="/img/github.svg"></a>
-                <a href="https://twitter.com/pfrazee"><img src="/img/twitter.png"></a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
 </html>

@@ -6,7 +6,7 @@ thumb: beaker-thumb.png
 desc: This version adds the auto-updater, IPNS, and bugfixes.
 ---
 
-<img src="/img/auto-updater.gif" style="display: block; border: 1px solid #ccc; margin: 2em auto">
+<img src="/assets/img/auto-updater.gif" style="display: block; border: 1px solid #ccc; margin: 2em auto">
 
 
 Beaker 0.2 is released today for MacOS.
@@ -15,10 +15,11 @@ This release adds the auto-updater, [IPNS](https://github.com/ipfs/examples/tree
 Please [file any issues you have at the GitHub repo](https://github.com/pfrazee/beaker).
 You can [tweet @pfrazee](https://twitter.com/pfrazee) for additional support, or join #beakerbrowser on Freenode to chat.
 
-<div class="well">
-  <p><a href="https://download.beakerbrowser.net/download/0.2.0/osx_64/Beaker%20Browser-0.2.0.dmg" class="btn">Download for MacOS</a></p>
-  or <a href="https://github.com/pfrazee/beaker">build from source</a>
-</div>
+[ 
+<a href="https://download.beakerbrowser.net/download/0.2.0/osx_64/Beaker%20Browser-0.2.0.dmg" class="btn">Download for MacOS</a>
+|
+<a href="https://github.com/pfrazee/beaker">build from source</a>
+]
 
 In the next release, Beaker will include new features that make publishing on the P2P networks both convenient and fun.
 I've been reaching out to the community, and received great feedback about what this should include.
@@ -56,10 +57,14 @@ PS, if you ever look behind the scenes, you'll notice that auto-updates are serv
 Why?
 Because my friend John thought it would be funny to snag the .com and put this up:
 
-<img src="/img/prank.png" style="display: block; margin: 3em auto">
+<img src="/assets/img/prank.png" style="display: block; margin: 3em auto">
 
 We had a laugh<a href="#1" id="_1"><sup>1</sup></a>, but when he transferred the domain to me, the registrar flagged it for potential fraud and we got bogged down in bureaucracy.
 I went with .net so I could keep development moving.
+<br>
+<br>
 
+---
 
+<br>
 <small id="1"><a href="#_1"><sup>1</sup></a> The joke, explained: [Brand confusion](http://beakernotebook.com/), I prefer [yo-yo](https://www.npmjs.com/package/yo-yo) to React, and he's been trying to get me into Destiny for months now.</small><br>

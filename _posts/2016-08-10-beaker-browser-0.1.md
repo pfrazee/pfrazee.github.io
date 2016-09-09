@@ -95,6 +95,9 @@ Thanks for checking out the software.
 I hope you enjoy it!
 
 <br>
+
+---
+
 <br>
 <small id="1"><a href="#_1"><sup>1</sup></a> Perhaps that was because the scope would always creep to fit the name, "Ultra."</small><br>
 <small id="2"><a href="#_2"><sup>2</sup></a> That said, I'm going to be doing review before I list a plugin on Beaker's readme.</small><br>

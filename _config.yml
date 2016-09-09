@@ -1,4 +1,19 @@
-name: "@pfrazee"
-url: https://pfrazee.github.io
-markdown: redcarpet
+# Blog settings
+permalink: /blog/:title
+
+# My variables
+name: Paul Frazee
+description: Software
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 highlighter: rouge
