@@ -29,6 +29,7 @@ I look forward to putting it in your&nbsp;hands.
 
 <br>
 <br>
+
 ## About the plugins
 
 Beaker supports plugins, which add Web APIs and URL schemes.
@@ -51,6 +52,7 @@ Teams will now experiment with their tech using custom builds, [as documented he
 I'm working with the MaidSafe team to make a "SAFE" variant of Beaker with this new approach, and we'll keep improving the tools as we understand the requirements more.
 
 <br>
+
 ## The updates domain
 
 PS, if you ever look behind the scenes, you'll notice that auto-updates are served from beakerbrowser.net, instead of .com.

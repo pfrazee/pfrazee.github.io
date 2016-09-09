@@ -15,6 +15,7 @@ beneficial or at least not detrimental to us is high enough for us to consider e
 form of cooperation with him.
 
 <br>
+
 ### [Temporal Factors to evaluate trustworthiness of virtual identities](http://www.tara.tcd.ie/bitstream/handle/2262/39200/Temporal%20Factors.pdf)
 
 *analysis, model design*
@@ -28,6 +29,7 @@ a virtual identity shows temporal stability and continuous
 activity appears an interesting property. 
 
 <br>
+
 ### [B-trust: Bayesian Trust Framework for Pervasive Computing](http://www0.cs.ucl.ac.uk/staff/d.quercia/publications/querciaB-trust06.pdf)
 
 *analysis, model design*
@@ -38,6 +40,7 @@ of appropriate security.
 
 
 <br>
+
 ### [Ratings in Distributed Systems: A Bayesian Approach](http://publications.csail.mit.edu/lcs/pubs/pdf/MIT-LCS-TM-617.pdf)
 
 *analysis, model design*
@@ -47,6 +50,7 @@ contextualization in these systems.
 
 
 <br>
+
 ### [Trust-Based Security in Pervasive Computing Environments](http://ebiquity.umbc.edu/_file_directory_/papers/73.pdf)
 
 *access control, system design*
@@ -59,6 +63,7 @@ itself.
 
 
 <br>
+
 ### [Distributed Trust](http://www.cs.columbia.edu/~angelos/Papers/2004/tmreview.pdf)
 
 *access controls, system design*

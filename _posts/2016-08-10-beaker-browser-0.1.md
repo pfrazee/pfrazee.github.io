@@ -21,6 +21,7 @@ Licensed modified MIT.
 Built on Electron.
 
 <br>
+
 ## Background
 
 Beaker was started two months ago, around the time of the [Decentralized-Web Summit](http://www.decentralizedweb.net/).
@@ -45,6 +46,7 @@ It's a pre-standards browser, so to speak; a place to try a technology without w
 And, it's been made to pursue that mandate of decentralization: that we disconnect presentation from services, that we improve confidentiality, and that we remove the advantages that keep large businesses in control of the Web.
 
 <br>
+
 ## About the software
 
 Beaker is built on [Electron](http://electron.atom.io/), which is a temporary solution.
@@ -71,6 +73,7 @@ We might need to revive [Persona](https://developer.mozilla.org/en-US/Persona).
 I also think micropayments are due in the Web, and I'm going to be pursuing their integration into the UI.
 
 <br>
+
 ## A few words on security, and "reader privacy"
 
 There are some interesting tradeoffs involved with Beaker's two implemented protocols, IPFS and Dat. <a href="#4" id="_3"><sup>3</sup></a>
@@ -88,6 +91,7 @@ To get an archive, you need to announce to the entire network that you need it.
 I'm talking with the protocol teams about how to improve the issue. <a href="#4" id="_4"><sup>4</sup></a>
 
 <br>
+
 ## Download now
 
 Read the docs, download the OSX binary, or get the source at [https://github.com/pfrazee/beaker](https://github.com/pfrazee/beaker).
