@@ -5,8 +5,6 @@ banner: computing-trust.jpg
 desc: A collection of papers about handling trust in distributed computing.
 ---
 
-<br>
-
 ### [Can We Trust Trust?](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.24.5695&rep=rep1&type=pdf)
 
 *philosophy*

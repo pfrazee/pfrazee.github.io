@@ -11,7 +11,9 @@ It is a "developer preview."
 It supports basic browsing features like bookmarks and history, integrates [IPFS](https://ipfs.io) and [Dat](http://dat-data.com) protocols, and has a plugin system to add new protocols.
 
 <br>
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/nKHJ4rLN9mo" frameborder="0" allowfullscreen></iframe></center>
+<center>
+<video src="/assets/vid/beaker-0.1-demo.mp4" width="560" height="315" controls></video>
+</center>
 
 <br>
 Project URL: [https://github.com/pfrazee/beaker](https://github.com/pfrazee/beaker).
