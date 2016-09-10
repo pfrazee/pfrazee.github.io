@@ -46,7 +46,11 @@ ul {
 		}
 	}
 }
-
+blockquote {
+	border-left: 10px solid #ddd;
+	padding-left: 10px;
+	color: #555;
+}
 
 .wrapper {
 	max-width: 600px;
