@@ -75,7 +75,7 @@ The benefits:
 Yes, but &mdash;<br>
 **Decentralization shares the business advantages that Serverless claims.**
 
-In the Decentralized Web, you have offline-first apps, indendent publishing, and better security.
+In the Decentralized Web, you have offline-first apps, independent publishing, and better security.
 But, you also have:
 
  - **Less ops.** Applications run on the user device.
