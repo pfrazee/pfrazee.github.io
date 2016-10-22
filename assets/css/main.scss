@@ -56,7 +56,7 @@ blockquote {
 .wrapper {
 	max-width: 600px;
 	margin: auto;
-	padding: 60px 30px 60px 30px;
+	padding: 20px 30px 60px 30px;
 	@media screen and (max-width: $br) {
 		padding: 20px;
 	}
@@ -64,16 +64,18 @@ blockquote {
 
 
 .header {
-	display: flex;
-	justify-content: space-between;
 	align-items: baseline;
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 	@media screen and (max-width: $br) {
 		display: block;
 	}
 	h1 {
 		font-size: 2em;
-		margin-bottom: 0;
+		font-weight: 700;
+		padding-right: 10px;
+		padding-bottom: 2px;
+		text-decoration: none;
+		border-bottom: 3px solid $color-black;
 	}
 	ul {
 		margin-top: 10px;
@@ -88,8 +90,12 @@ blockquote {
 .blog {
 	padding-bottom: 30px;
 	h1 {
-		font-size: 1.4em;
-		margin-bottom: 5px;
+		font-size: 1.6em;
+		font-weight: 700;
+		padding-right: 10px;
+		padding-bottom: 2px;
+		text-decoration: none;
+		border-bottom: 3px solid $color-black;
 	}
 }
 
