@@ -23,10 +23,18 @@ layout: default
     </ul>
 </div>
 <div class="blog">
+    <h1>Recommendations:</h1>
+    <ul class="recommendations">
+        {% for item in site.data.recommendations %}
+        <li><a href="{{item.where}}">{{ item.what }}</a> &mdash; {{ item.why }}</li>
+        {% endfor %}
+    </ul>
+</div>
+<div class="blog">
     <h1>Pictures:</h1>
     <div class="pictures">
         {% for item in site.data.pictures %}
         <img src="/assets/img/pics/{{ item.filename }}" title="{{ item.caption }}">
         {% endfor %}
-    </ul>
+    </div>
 </div>

@@ -1,0 +1,16 @@
+- what: |
+    "22, A Million" by Bon Iver
+  where: https://en.wikipedia.org/wiki/22%2C_A_Million
+  why: A 2016 favorite.
+
+- what: Beaker
+  where: https://beakerbrowser.com/
+  why: My experimental P2P Browser.
+
+- what: yo-yo.js
+  where: https://www.npmjs.com/package/yo-yo
+  why: Like React, but uses template strings. Very light weight.
+
+- what: NodeBB
+  where: https://github.com/NodeBB/NodeBB/
+  why: A surprisingly good forum solution.
