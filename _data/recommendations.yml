@@ -2,15 +2,19 @@
     "22, A Million" by Bon Iver
   where: https://en.wikipedia.org/wiki/22%2C_A_Million
   why: A 2016 favorite.
+  category: Music
 
 - what: Beaker
   where: https://beakerbrowser.com/
   why: My experimental P2P Browser.
+  category: Software
 
 - what: yo-yo.js
   where: https://www.npmjs.com/package/yo-yo
   why: Like React, but uses template strings. Very light weight.
+  category: Modules, JS
 
 - what: NodeBB
   where: https://github.com/NodeBB/NodeBB/
   why: A surprisingly good forum solution.
+  category: Software
