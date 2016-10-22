@@ -22,10 +22,11 @@ layout: default
         {% endfor %}
     </ul>
 </div>
-<!--
-<div class="music">
-    <h1>Now Playing:</h1>
-    <a href="http://www.last.fm/user/getmicah"><span id="nowPlaying"></span></a>
+<div class="blog">
+    <h1>Pictures:</h1>
+    <div class="pictures">
+        {% for item in site.data.pictures %}
+        <img src="/assets/img/pics/{{ item.filename }}" title="{{ item.caption }}">
+        {% endfor %}
+    </ul>
 </div>
-<script src="/assets/js/main.js"></script>
--->
