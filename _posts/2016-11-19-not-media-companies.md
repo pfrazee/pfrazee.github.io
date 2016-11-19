@@ -22,3 +22,15 @@ If Facebook's a media company, then it's up to them to dictate the standards of 
 If they're a tech company, then they need to open themselves to custom frontends.
 
 So, which is it, Facebook?
+
+<br>
+
+---
+
+<br>
+
+A follow-up conversation, between Tara (gray) and myself (blue):
+
+<br>
+
+<img class="centered" src="/assets/img/app-as-media-conversation.png">
