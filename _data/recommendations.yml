@@ -1,7 +1,13 @@
 - what: |
+    "Woman" by Justice
+  where: https://en.wikipedia.org/wiki/Woman_(Justice_album)
+  why: Justice is always great.
+  category: Music
+
+- what: |
     "22, A Million" by Bon Iver
   where: https://en.wikipedia.org/wiki/22%2C_A_Million
-  why: A 2016 favorite.
+  why: Evocative, well-crafted, and diverse.
   category: Music
 
 - what: Beaker
@@ -16,5 +22,5 @@
 
 - what: NodeBB
   where: https://github.com/NodeBB/NodeBB/
-  why: A surprisingly good forum solution.
+  why: A surprisingly good self-hostable forum.
   category: Software

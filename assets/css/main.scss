@@ -37,14 +37,12 @@ a {
 	text-decoration: none;
   }
 }
-ul {
+ul, ol {
 	list-style: none;
 	li {
 		padding: 5px;
 		padding-left: 10px;
-		@media screen and (max-width: $br) {
-			padding: 10px 0 10px 0;
-		}
+		line-height: 150%;
 	}
 }
 blockquote {
@@ -162,6 +160,11 @@ blockquote {
 			line-height: 150%;
 			margin-bottom: 15px;
 		}
+		blockquote {
+			padding: 10px 10px;
+			line-height: 150%;
+			margin: 15px 0;
+		}
 		a {
 			padding-bottom: 1px;
 			border-bottom: 1px solid $color-link;
@@ -176,10 +179,24 @@ blockquote {
 		em {
 			font-style: italic;
 		}
+		sup {
+			font-size: 90%;
+			position: relative;
+			top: -5px;
+			a {
+				border: none;
+			}
+		}
 		ul {
-			font-size: 1em;
 			list-style: circle;
 			margin-left: 30px;
+		}
+		ol {
+			list-style: decimal;
+			margin-left: 40px;
+		}
+		ul, ol {
+			font-size: 1em;
 			margin-bottom: 15px;
 			li {
 				padding: 5px;
@@ -187,6 +204,9 @@ blockquote {
 				@media screen and (max-width: $br) {
 					padding: 10px 0 10px 0;
 				}
+			}
+			ul {
+				margin-bottom: 0;
 			}
 			@media screen and (max-width: $br) {
 				margin-left: 10px;

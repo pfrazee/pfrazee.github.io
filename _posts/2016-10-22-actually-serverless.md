@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Actually Serverless
-asdf: The Decentralization Pitch for Serverless
-thumb: beaker-thumb.png
 desc: The Decentralized Web accomplishes the same business goals as Serverless while providing new benefits for users.
 ---
 
