@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Not Media Companies
-desc:
+desc: Facebook is shrugging its responsibility as either a tech or media company.
 ---
 
 After the 2016 presidential election, the Left pushed against Facebook for fake news stories, and this forced Zuckerberg into an admission:
