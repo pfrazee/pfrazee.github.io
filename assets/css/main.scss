@@ -8,7 +8,7 @@
 body {
 	color: $color-black;
 	background: #fff;
-	border-top: 3px solid #ff7964;
+	border-top: 3px solid #1500ff;
 	font-family: 'Inconsolata', ;
 	font-size: 100%;
 	font-weight: 400;
@@ -50,6 +50,10 @@ blockquote {
 	border-left: 10px solid #ddd;
 	padding-left: 10px;
 	color: #555;
+
+	& > :last-child {
+		margin-bottom: 0 !important;
+	}
 }
 
 .wrapper {
@@ -273,4 +277,30 @@ blockquote {
 .centered {
 	display: block;
 	margin: 0 auto;
+}
+
+.bordered {
+	border: 1px solid #ddd;
+}
+
+.yt-video {
+  display: block;
+  width: 560px;
+  border: 1px solid #ccc;
+
+  &.centered {
+    margin: 0 auto;
+  }
+
+  iframe {
+    display: block;
+    width: 560px;
+    height: 315px;
+  }
+}
+@media(max-width: 560px) {
+  .yt-video, .yt-video iframe {
+    width: 320px;
+    height: 180px;
+  }
 }
