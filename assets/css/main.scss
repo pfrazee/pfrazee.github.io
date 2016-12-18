@@ -304,3 +304,18 @@ blockquote {
     height: 180px;
   }
 }
+
+.mutebox {
+	padding: 1rem;
+	color: gray;
+
+	&.dark {
+	 background: #fafafa;
+	 margin: 1rem 0;
+	 color: #666;
+	}
+
+	& > :last-child {
+		margin-bottom: 0 !important;
+	}
+}

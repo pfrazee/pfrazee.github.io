@@ -10,7 +10,7 @@ The P2P Web is an experimental set of technologies, APIs, and philosophies, crea
 
 ---
 
-<blockquote>You can try everything described in this post with the <a href="https://beakerbrowser.com/">Beaker Browser</a>, which implements the P2P Web in a fork of Chromium.<sup>1</sup></blockquote>
+<div class="mutebox"><p>You can try everything described in this post with the <a href="https://beakerbrowser.com/">Beaker Browser</a>, which implements the P2P Web in a fork of Chromium.<sup>1</sup></p></div>
 
 ---
 
@@ -32,7 +32,9 @@ Once integrated into a browser, these principles enable users to publish indepen
 
 ## An open platform
 
-> The Web is an open global community -- and yet, most of the content is controlled by a few companies. How strange it is that the Web is run by private businesses!
+<div class="mutebox bordered dark">
+  <p>The Web is an open global community &mdash; and yet, most of the content is controlled by a few companies. How strange it is that the Web is run by private businesses!</p>
+</div>
 
 The P2P Web has one rule: users should control their own data, always and forever. You should never give up ownership for the privilege of access.
 
@@ -60,7 +62,9 @@ Communities are not owned in the P2P Web: they are aggregated from each user's p
 
 ## For open source
 
-> For years, if you've wanted to write social software, you've needed to work at Twitter or Facebook.com. Despite benefitting from layers of Free and Open-source software, Web applications are closed source. This is worse than anti-competitive: it just isn't any *fun*. The Web is about sharing information and experiences; why would we limit that to social media? Why not share our software socially, too?
+<div class="mutebox bordered dark">
+  <p>For years, if you've wanted to write social software, you've needed to work at Twitter or Facebook.com. Despite benefitting from layers of Free and Open-source software, Web applications are closed source. This is worse than anti-competitive: it just isn't any <em>fun</em>. The Web is about sharing information and experiences; why would we limit that to social media? Why not share our software socially, too?</p>
+</div>
 
 P2P sites are self-contained bundles of files. They are not hosted by a service. They sync onto the device, and run in a sandbox.
 
@@ -72,7 +76,7 @@ P2P sites include everything they need to run the application. The APIs can read
 
 This all leads to one of the P2P Web's most powerful features: **forkability**. Any site can be duplicated with one click. A forked site is given a global URL automatically, and is served from the author's machine. 
 
-This is like having the a VCS (such as Git) and a server (eg Apache) built into the browser itself. There's no longer anything to stop you from wanting a change, making it, and sharing. Development can occur from the bottom-up, driven by users themselves.
+This is like having a version-control system (such as Git) and a server (eg Apache) built into the browser itself. There's no longer anything to stop you from wanting a change, making it, and sharing. Development can occur from the bottom-up, driven by users themselves.
 
 <br>
 <img class="centered bordered" src="/assets/img/dat-viewer.png">
@@ -89,8 +93,13 @@ This is all alpha-release FOSS software, and we're looking for passionate contri
 
 It's our mission to spread user-first technologies to all browsers, and we will continue to experiment with new features as we grow.
 
-> See also the pioneering work being done by [IPFS](https://ipfs.io/), [WebTorrent](https://webtorrent.io/), [ZeroNet](https://zeronet.io/), and [Secure Scuttlebutt](https://github.com/ssbc), each of which have influenced Beaker in some way.
+<br>
+<hr>
+<div class="mutebox">
+  <p>See also the pioneering work being done by <a href="https://ipfs.io/">IPFS</a>, <a href="https://webtorrent.io/">WebTorrent</a>, <a href="https://zeronet.io/">ZeroNet</a>, and <a href="https://github.com/ssbc">Secure Scuttlebutt</a>, each of which have influenced Beaker.</p>
+</div>
+<hr>
 
 <br>
 
- <sup>1</sup> Apologies to Windows and Linux users: you'll need to build from source.
+<sup>1</sup> Apologies to Windows and Linux users: you'll need to build from source.
