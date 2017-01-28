@@ -26,6 +26,7 @@ Now that <a href="https://developers.google.com/web/fundamentals/getting-started
 <p class="center"><small>(^ That doesn't exist yet so don't try it.)</small></p>
 
 <br>
+
 ## WebComponents API
 
 <a href="https://developers.google.com/web/fundamentals/getting-started/primers/customelements">Google has a very good intro that covers the major points.</a> Here's the skeleton of an element definiton:
@@ -81,6 +82,7 @@ Thus armed, I stepped through the ReactJS examples to recreate them. <a href="ht
 <p class="center"><img src="/assets/img/conquistador.jpg"><br><small>"Into the greenfield!"</small></p>
 
 <br>
+
 ## `index.html`
 
 First we pull in the imports:
@@ -106,6 +108,7 @@ Then we insert our components:
 
 
 <br>
+
 ## `hello-label.html`
 
 I decided to take two passes on the elements, first with just WebComponents and YoYo, then second with a custom base class called `HTMLYoYo`.
@@ -135,6 +138,7 @@ window.customElements.define('hello-label', class extends HTMLYoYo {
 That should look familiar to anyone who's done React before.
 
 <br>
+
 ## `seconds-elapsed.html`
 
 This component shows a counter that increases by 1 each second.
@@ -193,6 +197,7 @@ This shows lifecycle with `connectedCallback` and `disconnectedCallback`. We use
 In my custom class, `this.state` is a [Proxy object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy). It reflects the attributes of the HTML Element, and triggers a re-render when there's a change. For React folk, it's like `this.props` and `this.state` combined.
 
 <br>
+
 ## `todo-app.html`
 
 Now a more complex example, a Todo List.
@@ -342,6 +347,7 @@ This is the element where I discovered that, unlike in React, you need to serial
 The basic version isn't bad, but I can't imagine myself doing heavy development with it. Almost certainly, I'll want something like my `HTMLYoYo` class for a real app.
 
 <br>
+
 ## `markdown-editor.html`
 
 <img src="/assets/img/markedowneditor.png">
@@ -381,6 +387,7 @@ window.customElements.define('markdown-editor', class extends HTMLYoYo {
 This illustrates what it takes to put unescaped HTML into the page.
 
 <br>
+
 ## `base-class.html`
 
 It should be obvious from the examples that, while basic WebComponents + YoYo isn't bad, you really want a custom baseclass to handle the boilerplate.
@@ -446,6 +453,7 @@ I think it'd be smart on my next pass to use both `props` and `state` objects, a
 
 
 <br>
+
 ## Closing thoughts
 
 This is just my first pass with WebComponents and Yo-Yo, and I'm pretty satisfied the experience. I don't particularly love the JSON serialization of attributes, but otherwise it all worked just how I wanted it to. 8/10 with rice.
