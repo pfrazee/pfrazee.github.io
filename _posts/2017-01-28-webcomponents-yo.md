@@ -16,7 +16,9 @@ Now that <a href="https://developers.google.com/web/fundamentals/getting-started
 **Why:** I'm always looking for the most minimal and native option to build Web apps. In this case, native modularity is especially interesting.
 
 <br>
-<small>A hypothetical import:</small>
+
+<p><small>A hypothetical import:</small></p>
+
 ```html
 <link rel="import" href="https://twitter.com/com/tweet-card.html">
 <tweet-card tweet-id="825412250991284224"></tweet-card>
