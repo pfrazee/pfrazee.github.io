@@ -17,7 +17,7 @@ Now that <a href="https://developers.google.com/web/fundamentals/getting-started
 
 <br>
 <small>A hypothetical import:</small>
-```js
+```html
 <link rel="import" href="https://twitter.com/com/tweet-card.html">
 <tweet-card tweet-id="825412250991284224"></tweet-card>
 ```
