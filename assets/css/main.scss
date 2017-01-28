@@ -4,6 +4,7 @@
 @import "reset";
 @import "config";
 @import "fonts";
+@import "highlight";
 
 body {
 	color: $color-black;
@@ -12,6 +13,10 @@ body {
 	font-family: 'Inconsolata', ;
 	font-size: 100%;
 	font-weight: 400;
+}
+hr {
+	border: 0;
+	border-top: 1px solid #ddd;
 }
 h1 {
 	margin-bottom: 5px;
@@ -37,6 +42,12 @@ a {
 	color: $color-link;
 	text-decoration: none;
   }
+}
+small {
+	font-size: 85%;
+}
+.center {
+	text-align: center;
 }
 ul, ol {
 	list-style: none;
@@ -237,9 +248,8 @@ blockquote {
 			padding: 10px;
 			line-height: 1.5;
 			border-radius: 3px;
-			background: $color-black;
+			background: $color-grey;
 			code {
-				color: $color-code;
 				background: none;
 			}
 		}
