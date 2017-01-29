@@ -5,11 +5,8 @@ desc: A first foray into replacing React with native WebComponents and Yo-Yo.
 ---
 
 <p style="font-size: 130%; padding: 1rem; border: 1px solid #ddd;">
-<strong>TL;DR:</strong> I used <a href="https://www.npmjs.com/package/yo-yo">Yo-Yo</a> with WebComponents v1 to create a minimal React-like demo. And it works! <a href="https://pfrazee.github.io/webcomponents-yo/">Here's the link.</a>
+<strong>TL;DR:</strong> I used <a href="https://www.npmjs.com/package/yo-yo">Yo-Yo</a> with WebComponents v1 to create a minimal React-like demo. <a href="https://pfrazee.github.io/webcomponents-yo/">Here's the link.</a>
 </p>
-
-<p class="center"><img src="/assets/img/webcomponents.png"></p>
-<br>
 
 Now that <a href="https://developers.google.com/web/fundamentals/getting-started/primers/customelements">WebComponents v1</a> have landed in Chrome, I decided it was time to give them a shot.
 
