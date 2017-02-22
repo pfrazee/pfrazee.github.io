@@ -4,33 +4,26 @@ title: Announcing DatHTTPD
 desc: Bringing together the old Web and the new Web.
 ---
 
-<div class="flex">
-  <div style="font-size: 130%; padding: 1rem; border: 1px solid #ddd;">
-  <p><small><strong>tl;dr</strong></small></p>
-  <p><a href="https://github.com/beakerbrowser/dathttpd">DatHTTPD</a> serves Web sites over HTTPS and <a href="https://datprotocol.com">Dat</a> with automatic TLS certificates.</p>
-  </div>
-
-  <div class="post-config">
-    <table>
-      <thead><tr><td colspan="2">
-        Configure the variables in this post
-      </td></tr></thead>
-      <tbody>
-        <tr>
-          <th>$YOUR_DNS</th>
-          <td><a href="#" onclick="chooseVar('dns')"><var id="dns"></var></a></td>
-        </tr>
-        <tr>
-          <th>$YOUR_DAT</th>
-          <td><a href="#" onclick="chooseVar('dat')"><var id="dat" class="shorten"></var></a></td>
-        </tr>
-        <tr>
-          <th>$YOUR_EMAIL</th>
-          <td><a href="#" onclick="chooseVar('email')"><var id="email"></var></a></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+<div class="post-config" style="display: inline-block">
+  <table>
+    <thead><tr><td colspan="2">
+      Configure the variables in this post
+    </td></tr></thead>
+    <tbody>
+      <tr>
+        <th>$YOUR_DNS</th>
+        <td><a href="#" onclick="chooseVar('dns')"><var id="dns"></var></a></td>
+      </tr>
+      <tr>
+        <th>$YOUR_DAT</th>
+        <td><a href="#" onclick="chooseVar('dat')"><var id="dat" class="shorten"></var></a></td>
+      </tr>
+      <tr>
+        <th>$YOUR_EMAIL</th>
+        <td><a href="#" onclick="chooseVar('email')"><var id="email"></var></a></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <br>
@@ -39,7 +32,7 @@ As of [Beaker Browser 0.6.1](https://beakerbrowser.com), you can visit [Dat site
 
 <img class="centered" src="/assets/img/datdns.png">
 
-This is accomplished with DNS-over-HTTPS, and made simple with <a href="https://github.com/beakerbrowser/dathttpd">DatHTTPD</a>.
+This is accomplished with DNS-over-HTTPS, and made simple with <a href="https://github.com/beakerbrowser/dathttpd">DatHTTPD</a>. DatHTTPD serves Web sites over HTTPS and <a href="https://datprotocol.com">Dat</a> with automatic TLS certificates.
 
 <br>
 
