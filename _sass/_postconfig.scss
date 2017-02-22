@@ -1,0 +1,33 @@
+.post-config {
+  background: #fafafa;
+  padding: 1rem;
+
+  table {
+    text-align: left;
+    background: #fff;
+
+    thead {
+      background: #eee;
+    }
+
+    tr {
+      th {
+        font-weight: bold;
+      }
+      th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+    }
+
+    td {
+      a {
+        border: 0;
+      }
+    }
+  }
+}
+
+var {
+  color: #0eb30e;
+}

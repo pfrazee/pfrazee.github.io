@@ -5,6 +5,7 @@
 @import "config";
 @import "fonts";
 @import "highlight";
+@import "postconfig";
 
 body {
 	color: $color-black;
@@ -328,4 +329,8 @@ blockquote {
 	& > :last-child {
 		margin-bottom: 0 !important;
 	}
+}
+
+.flex {
+	display: flex;
 }
