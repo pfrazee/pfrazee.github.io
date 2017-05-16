@@ -1,0 +1,165 @@
+---
+layout: post
+title: The New Decentralized Web
+desc: 
+---
+
+> The [Beaker Browser]() is my personal full-time project.
+
+
+
+
+The Decentralized Web Browser takes its role more seriously as an application platform, without losing what makes it [fundamentally the Web](https://paul.kinlan.me/slice-the-web/).
+It runs applications on the device, without a host, and stores data on the user's hard-drive.
+
+The Decentralized Web Browser disconnects apps from services, so that there's no lock in.
+Traditional Web services lock in the application like the TV locks in a television show.
+You can choose a channel, but you can't choose the content.
+The Decentralized Web Browser breaks that arbitrary binding; It provides service-discovery, to connect applications to independent services.
+
+The Decentralized Web Browser has a fork button.
+It understands, that users understand their own needs better than anyone, and that a lot of them write code.
+It empowers them to be creative, and to share changes to applications, while still participating in a shared network.
+
+A lot of these ideas were shared with me by [Dominic Tarr](https://twitter.com/dominictarr) 4.3, [Mathius Buus](https://twitter.com/mafintosh) 3.2, [Max Ogden](https://twitter.com/denormalize) 17.8, [Mikeal Rogers](https://twitter.com/mikeal) 16.9, [James Halliday](https://twitter.com/substack) 20.2, and [many](mix) [others](cel).
+
+/*
+Decentralization will give users more power to participate in digital society.
+You'll no longer have to stand up a billion-user web-scale service to deploy networked software.
+There won't be lock-in or walled gardens.
+The Web will work as intended: open to all.
+
+Digital society needs to move laterally to reflect its people.
+If our discussion forum needs moderation, it should be in our hands to add moderation.
+
+Software regulates our interactions, and we need representation.
+We vote with the market, but the market needs to be fine-grained and responsive to be a representatitive body.
+Every time you've said, "I'd love to leave Facebook but my friends are there," you've described the loss of your agency created by software lockin.
+The Web's dysfunction creates market dysfunction creates an undemocratic society.
+*/
+
+## Server / Application independence
+
+> Solving application lockin
+
+Web services lock in the application like Television locks in content.
+You can choose a channel, but you can't choose what the channel shows.
+
+The same thing happens on the Web, with hosted applications.
+Most services strictly control which applications are authorized to use the APIs.
+This is a wasted opportunity.
+Users understand their own needs better than anyone, and a lot of them write code.
+Why are we disempowering them from solving their own problems?
+
+The Decentralized Web's Browser will have a fork button.
+It will
+
+ - Run applications on the client, without a host
+ - Provide service-discovery APIs, to connect applications to independent services
+ - 
+The 
+
+
+There's no better way to empower users than by giving them the right to modify the software socially.
+This can lead to rapid innovation on the user experience, and a (chaotic but overall) richer end product.
+
+([See Dominic et al's work with Patchbay](https://github.com/dominictarr/patchbay))
+
+## Dumb Services and P2P v. the Walled Garden
+
+Peer-to-peer publishing demolishes the walled garden.
+The traditional service requires you to publish to someone else's sites.
+P2P publishing means you can, at will, publish new sites.
+Each dat is a new site.
+You create it by generating a keypair.
+It can run custom code and HTML, or it can be a collection of json files and media.
+
+The Decentralized Web will have many browsers.
+Or, rather, many interpreters of content within the browser.
+
+## One web, one logical service
+
+Service discovery, data export, and global authentication ends service lockin
+
+## --
+
+We kind of expected this, back before Twitter became a media company, and Facebook was talking all about applications.
+But 
+
+
+----
+
+---
+layout: post
+title: The Forkable Web
+desc:
+---
+
+Like TV channels control the show, Web sites lock their frontend software.
+Social networks have embraced this situation and called themselves Media Companies.
+What they mean is, "We deliver ads."
+
+Application lockin, and the companies that exploit it, wastes the potential of the Web.
+**For the Web to grow as a social computing system, we need to add a fork button.**
+
+<br>
+
+---
+
+<br>
+
+## Not media companies
+
+<br>
+
+After the 2016 presidential election, the Left pushed against Facebook for fake news stories, and this forced Zuckerberg into an admission:
+
+<blockquote><a title="Mark Zuckerberg Says Facebook ‘Is Not a Media Company,’" href="http://www.thewrap.com/facebook-mark-zuckerberg-denies-media-company/">"We are a tech company, not a media company."</a><br>&mdash;Mark Zuckerberg, Aug 8 2016</blockquote>
+
+The logic of this statement has to do with moderation.
+"Tech companies" are neutral providers of tools and infrastructure.
+By positioning as tech, Zuckerberg avoids his obligation to control the content on Facebook.
+
+But Facebook is trying to eat its cake and have it too.
+Ads and Applications are both forms of media<sup><a href="#1" id="_1">1</a></sup>, and Facebook strictly controls both.
+When it comes to the content they make money from, Facebook is very much a media company.
+
+The double-standard is especially frustrating RE: the fake news stories, because, without influence on the application software, the userbase is helpless to solve the problem.
+As a tech company, Facebook is obligated to empower users to control the content -- including the frontend application.
+
+If Facebook's a media company, then it's up to them to dictate the standards of their content.
+If they're a tech company, then they need to open themselves to custom frontends.
+
+So, which is it, Facebook?
+
+<br>
+
+---
+
+<br>
+
+## Social computing system
+
+<br>
+
+Televisionification is slowing the industry down.
+
+It's slowing things down by wasting the talents of the users.
+Many users are programmers, and many users understand their own needs better than anyone.
+By disempowering them from solving their own problems, we reduce the quality of their software.
+
+we've created stagnant digital societies that don't respond quickly enough to problems or possibilities.
+
+So, Facebook has an identity crisis.
+They've claimed to be a tech company, but they're acting like a media company.
+
+
+
+
+ 1. **Open the network to custom frontends**, as infrastructure should be agnostic toward its media.
+ 2. **Change their monetization strategy** to service-subscriptions and/or licenses for self-hosted deployments, in following with most other tech businesses.
+
+---
+
+<br>
+<small id="1"><sup><a href="#_1">1</a></sup> Software is often tied to a specific service, and that obscures its role as a form of media. It's a consumable form of content, and ought to be as movable as videos or podcasts.</small><br>

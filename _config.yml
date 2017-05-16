@@ -2,9 +2,9 @@
 permalink: /blog/:title
 
 # My variables
+title: Paul Frazee
 name: Paul Frazee
-description: Software
-
+description: Software, decentralization, peer-to-peer systems, and more.
 
 # Sass
 sass:

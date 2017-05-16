@@ -10,8 +10,7 @@
 body {
 	color: $color-black;
 	background: #fff;
-	border-top: 3px solid #1500ff;
-	font-family: 'Inconsolata', ;
+	font-family: 'Inconsolata';
 	font-size: 100%;
 	font-weight: 400;
 }
@@ -69,37 +68,54 @@ blockquote {
 }
 
 .wrapper {
-	max-width: 600px;
-	margin: auto;
-	padding: 20px 30px 60px 30px;
+	padding: 20px 20px 60px 20px;
 	@media screen and (max-width: $br) {
 		padding: 20px;
 	}
 }
 
-
 .header {
+	position: fixed;
+	width: 300px;
 	align-items: baseline;
-	padding-bottom: 30px;
-	@media screen and (max-width: $br) {
-		display: block;
+	img {
+    width: 50px;
+    border-radius: 3px;
+    margin-right: 14px;
+    float: left;
 	}
 	h1 {
-		font-size: 2em;
-		font-weight: 700;
-		padding-right: 10px;
-		padding-bottom: 2px;
-		text-decoration: none;
-		border-bottom: 3px solid $color-black;
+    font-size: 2em;
+    margin: 9px 0 20px;
+    a {
+	    color: inherit;
+    }
 	}
 	ul {
 		margin-top: 10px;
 		li {
 			display: inline;
 			padding: 0;
-			padding-left: 5px;
+			padding-right: 5px;
 		}
 	}
+	.bio {
+    margin: 2rem 0;
+    color: #777;
+    font-size: 0.9em;
+  }
+  .rss {
+  	img {
+  		width: 1em;
+  		margin-right: 0.5em;
+  	}
+  }
+}
+
+.blog,
+.post {
+	margin-left: 320px;
+	max-width: 600px;
 }
 
 .blog {
@@ -111,18 +127,6 @@ blockquote {
 		padding-bottom: 2px;
 		text-decoration: none;
 		border-bottom: 3px solid $color-black;
-	}
-}
-
-.music {
-	padding-bottom: 30px;
-	h1 {
-		font-size: 1.4em;
-		margin-bottom: 5px;
-	}
-	a {
-		padding: 5px;
-		padding-left: 10px;
 	}
 }
 
