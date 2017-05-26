@@ -25,7 +25,7 @@
     <meta name="og:title" content="{{ page.title | default: "Paul Frazee" }}">
     <meta name="og:description" content="{{ page.desc }}">
     {% if page.thumb %}
-    <meta name="og:image" content="{{ page.thumb }}">
+    <meta name="og:image" content="{{ page.thumb | default: "/assets/img/favicon.png" }}">
     {% endif %}
 
     <link rel="icon" href="/assets/img/favicon.png">
