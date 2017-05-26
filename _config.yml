@@ -1,5 +1,6 @@
 # Blog settings
 permalink: /blog/:title
+show_drafts: true
 
 # My variables
 title: Paul Frazee
