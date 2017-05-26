@@ -18,6 +18,16 @@
         <meta name="google-site-verification" content="{{ site.google_verify }}">
     {% endif %}
 
+    <!-- social woo woo -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@pfrazee">
+    <meta name="twitter:creator" content="@pfrazee">
+    <meta name="og:title" content="{{ page.title | default: "Paul Frazee" }}">
+    <meta name="og:description" content="{{ page.desc }}">
+    {% if page.thumb %}
+    <meta name="og:image" content="{{ page.thumb }}">
+    {% endif %}
+
     <link rel="icon" href="/assets/img/favicon.png">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css">

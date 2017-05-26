@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is the P2P Web?
-desc: Facebook is shrugging its responsibility as either a tech or media company.
+desc: The P2P Web is an experimental set of technologies, APIs, and philosophies which give users more control over the Web.
 ---
 
 The P2P Web is an experimental set of technologies, APIs, and philosophies, created by members of the Node.js and Web communities, to give users more control over the Web. It is a new way to surf, publish, and&nbsp;connect.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Announcing DatHTTPD
-desc: Bringing together the old Web and the new Web.
+desc: Serve sites over Dat and HTTPS, with automatic certificate provision.
 ---
 
 <div class="post-config" style="display: inline-block">

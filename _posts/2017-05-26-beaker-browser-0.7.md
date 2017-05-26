@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Announcing Beaker Browser 0.7
+desc: New features, faster peer-to-peer sites, and a cat website.
 ---
 
 I'm happy to announce that [Beaker 0.7](https://github.com/beakerbrowser/beaker/releases/tag/0.7.0) is ready to download. Visit [beakerbrowser.com](https://beakerbrowser.com) to download it, or update your existing copy from the settings page.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A chat about Beaker's applications model"
+desc: An IRC transcript discussing how peer-to-peer Web applications should work in Beaker.
 ---
 
 I had a productive conversation with [David Ascher](https://twitter.com/davidascher) about [Beaker](https://beakerbrowser.com)'s apps model the other day. With his permission, I'm reproducing it here.
