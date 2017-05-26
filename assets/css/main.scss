@@ -78,6 +78,23 @@ blockquote {
 	position: fixed;
 	width: 300px;
 	align-items: baseline;
+
+	@media (max-width: 900px) {
+		position: relative;
+		width: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+
+    .bio {
+    	display: none;
+    }
+
+    .rss {
+    	float: right;
+    }
+	}
+
 	img {
     width: 50px;
     border-radius: 3px;
@@ -116,6 +133,10 @@ blockquote {
 .post {
 	margin-left: 320px;
 	max-width: 600px;
+
+	@media (max-width: 900px) {
+		margin: 0;
+	}
 }
 
 .blog {
