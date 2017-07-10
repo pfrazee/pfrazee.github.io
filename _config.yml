@@ -1,6 +1,7 @@
 # Blog settings
 permalink: /blog/:title
 show_drafts: true
+include: [".well-known"]
 
 # My variables
 title: Paul Frazee
