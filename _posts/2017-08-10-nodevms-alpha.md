@@ -11,7 +11,7 @@ h2 {
 }
 </style>
 
-With the [Beaker Browser](https://beakerbrowser.com), we're creating a decentralized and p2p networking stack for browser applications. Our goal is to execute applications without centralized services, so that users can own their data and their software.
+With the [Beaker browser](https://beakerbrowser.com), we're creating a decentralized and p2p networking stack for browser applications. Our goal is to execute applications without centralized services, so that users can own their data and their software.
 
 Currently our stack consists of:
 
@@ -71,7 +71,7 @@ In response to this, Ethereum has been focusing on Proof-of-Stake and sidechains
 
 I propose a Virtual Machine Swarm, a [secure ledger](https://beakerbrowser.com/2017/06/19/cryptographically-secure-change-feeds.html) protocol for executing services on nodejs. Though it’s similar to Ethereum in some of its goals and characteristics, in contrast it has:
 
- - no currency,
+ - no token,
  - no global state, and
  - no consensus algorithm or proof-of-work.
 
