@@ -24,6 +24,7 @@ h1 {
 p {
 	font-size: 1em;
 	line-height: 150%;
+	text-align: justify;
 }
 a {
   color: $color-link;
@@ -76,7 +77,7 @@ blockquote {
 
 .header {
 	position: fixed;
-	width: 300px;
+	width: 280px;
 	align-items: baseline;
 
 	@media (max-width: 900px) {
