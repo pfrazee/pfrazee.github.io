@@ -12,13 +12,15 @@ Blockchains do not require Proof-of-Work or decentralized consensus to provide t
 Further, I do not believe decentralized consensus is the political cure-all it's billed to be.
 
 We should re-evaluate whether we're letting hype drive our thinking.
-I believe that blockchains can be applied without decentralized consensus, and can create low cost, highly auditable network services.
+
+The data structures behind blockchains can be applied without decentralized consensus to introduce strong auditability and data integrity to services and Web publishing.
+This is already being done with [Certificate Transparency](https://www.certificate-transparency.org/), [Dat](https://datproject.org), and the [Beaker Browser](https://beakerbrowser.com).
 
 <br>
 
 ## What are blockchains?
 
-A blockchain is a linked-list data structure in which every entry references the previous entry using a [cryptographic hash](#TODO).
+Let's review the basics. A blockchain is a linked-list data structure in which every entry references the previous entry using a [cryptographic hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 
 Here's what wikipedia says:
 
@@ -32,17 +34,18 @@ Here's a blockchain visualized ([from "A blockchain in 200 lines of code"](https
 
 ## Why do they matter?
 
-Because each block includes the hash of its previous block, the hash of a block encompasses the entire chain's history.
-If you change one block in the history, the subsequent blocks' hashes change.
-
 Blockchains create accountability.
+
+The hash of each block encompasses the entire chain's history.
+If you change one bit of the history, all subsequent blocks' hashes change.
+
 By encompassing the history in each hash, we make it easy to check for lies about the state.
 Syncing peers can quickly check equality with each other.
 
 <img src="/assets/img/checkin.gif" class="centered">
 
-If hashes don’t match, then the consumer knows the history has changed.
-And because the blocks are signed, the consumer can prove to the network that the author created a split history.
+If hashes don’t match, then the peer knows the history has changed.
+And because the blocks are signed, the peer can prove to the network that the author created a split history.
 
 <img src="/assets/img/snitch.gif" class="centered">
 
@@ -73,16 +76,17 @@ With Proof-of-Work, that metric is hashing power.
 Whether decentralized consensus solves the question of ownership is dependant on circumstance.
 For it to work, ownership is never supposed to be concentrated beyond 50% -- but that's just a question of how much money you're willing to spend.
 [It has already happened before.](https://arstechnica.com/information-technology/2014/06/after-reaching-51-network-power-bitcoin-mining-pool-says-trust-us/)
-Because you don't need permission to buy hashing power and then participate in Bitcoin, there's no reason a "51% attack" won't happen in the future.
+Because you don't need permission to buy hashing power and then participate in Bitcoin, there's no way a "51% attack" can be stopped.
 
 Decentralized consensus also fails to consider the political reality of human networks.
 The protocols need changes over time, and changes mean governance.
 In Bitcoin, acceptance of a change is signalled by the miners - once some percent of the miners agree, the change is accepted.
-This means that hashing power is used to drive governance, and so the political system is essentially plutocratic.
+This means that hashing power is used as a measure of voting power, and so the political system is essentially plutocratic.
 How is that significantly different than the board of a publicly traded company?
 
 This is why I'm unimpressed with decentralized consensus as a political solution.
-Bitcoin has been wildly unstable, with controversies and forks happening querterly, and I suspect stability will actually mean "dominant ownership."
+Bitcoin has been wildly unstable, with controversies and forks happening querterly.
+I personally suspect stability will actually mean "dominant ownership."
 It doesn't seem like a unique victory over political realities, and it comes with the <a href="https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change" title="One Bitcoin Transaction Now Uses as Much Energy as Your House in a Week">high cost of Proof-of-Work</a>.
 
 <br>
@@ -92,16 +96,17 @@ It doesn't seem like a unique victory over political realities, and it comes wit
 I like the spirit of Proof-of-Stake, because at least it tries to solve the enormous cost problem of Proof-of-Work, but I'm going to point out two things:
 
  1. Anybody who's been involved in crypto-currencies for more than a year who smoothly transitions from "PoW is a great revolution" to "obviously PoW was never the long term solution" deserves a hard poke in the eye for the duration of my choosing.
- 2. Proof-of-Stake is not yet proven, and, prior to Proof-of-Work, nobody was sure that decentralized consensus was possible, so I default to extreme skepticism about your new PoS.
+ 2. Proof-of-Stake is not yet proven, and, prior to Proof-of-Work, nobody was sure that decentralized consensus was possible, so I default to extreme skepticism about any new PoS. This is going to require some hard work.
 
 <br>
 
-## Can we reform blockchains?
+## What can we do instead?
+
+First, a quick aside --
 
 The word "blockchain" does not actually refer to the decentralized consensus model.
-It refers to the linked list I described earlier.
-
-However, I'm *told* that the term blockchain is inextricably tied to the ideas in Bitcoin now, and so I'm going to use another term now: **secure ledgers**.
+It refers to the cryptographic linked list, which I described earlier.
+However, I'm told that the term blockchain is inextricably tied to the ideas in Bitcoin now, and so I'm going to use another term instead: **secure ledgers**.
 
 Conceptually it's the same, but the term is less encumbered.
 Got it?
@@ -118,7 +123,8 @@ Instead of a network, we use a single host.
 That host mantains a ledger which contains its state and its activity log.
 
 Why?
-**Accountability**.
+Accountability.
+
 Clients can monitor the ledger and, just as in decentralized consensus, ensure the host is following a set of business rules.
 With this accountability comes better trust.
 
@@ -141,6 +147,10 @@ Monitor-nodes and clients compare the certs they receive against the chain to ma
 Compared to decentralized consensus, a ledger-backed service provides the exact same level of auditability.
 It trades the interchangeability of hosts for a much cheaper operating model -- no Proof-of-Work.
 Given the cost of PoW, I think that's worth it.
+
+<br>
+
+## Is this usable now?
 
 As a proof-of-concept, I have written an auditable server called [NodeVMS](https://nodevms.com) which uses [Dat](https://datproject.org) to securely distribute the state and call log.
 It is not at production-ready, but it demonstrates the core ideas of this design.
