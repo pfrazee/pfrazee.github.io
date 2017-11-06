@@ -4,45 +4,42 @@ title: Services with secure ledgers
 desc: 
 ---
 
-There's a push in the decentralization world to use Bitcoin variants as the solution for everything: databases, user identity, key distribution, even basic hosting.
+As Bitcoin, Ethereum, and other blockchain-based systems have gained popularity, there's been an explosion of projects that attempt to use blockchains as a hammer for seemingly anything that looks a nail: databases, user identity, key distribution, and even basic hosting.
 
-I am strongly against this due to the excessive cost of Proof-of-Work.
+I think these efforts are misguided, and I'd like to state why I think that's the case.
 
-Proof-of-Work requires every operator in the network to run throw-away computation, which costs electricity.
-There's a technical reason for doing it, but, economically speaking, that computation acts as a kind of lottery for the operators.
-If they win the lottery, they earn some amount of Bitcoin-- so the higher Bitcoin is worth, the more electricity they're willing to spend.
+## Blockchains and proof-of-work
 
-This has had a predictable result!
-<a href="https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change" title="One Bitcoin Transaction Now Uses as Much Energy as Your House in a Week">"One Bitcoin transaction uses as much energy as your house in a week" according to Motherboard</a>.
+Blockchains are often used to enable networks of nodes to establish global consensus without trusting each other (think Bitcoin). Because the nodes don't trust each other, the network needs a way to make sure that no node is able to append fraudulent transactions to the ledger. In these sorts of cases, a mechanism called proof-of-work is used to prevent fradulent transactions.
 
-It seems outlandish, but think about this: the operators (called miners) are incentivized to spend electricity up to the probability of a win multiplied by the current valuation of a BtC.
-If you have a (let's say) a 1% chance at winning Bitcoin worth (let's say) $10k, you'd be smart to pay up to $100 of electricity per round to win.
-That's what's happening here, all around the world, with rounds occurring *every ten minutes*.
+In a proof-of-work-based system, adding a transaction to the shared ledger requires the transactor to run a large amount of "frivolous" computation. Doing computation requires electricity, so all proof-of-work based systems require using large amounts of electricity to function.
 
-> Alex de Vries, aka [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption), estimates that with prices the way they are now, it would be profitable for Bitcoin miners to burn through over 24 terawatt-hours of electricity annually as they compete. ... That's about as much as Nigeria, a country of 186 million people, uses in a year.
+This isn't necessarily problematic; as a society we choose to generate and use energy on plenty of things that we find valuable — cars, television, sporting events, etc. But proof-of-work systems are architected intentionally to require excess computation in order to meet a very specific requirement: global consensus across a distributed network of nodes that don't trust each other.
 
-The amount of energy spent is going to increase as the value of Bitcoin increases, driven by speculation and the need for liquidity in other crypto currencies.
-That is *not a good thing.*
+This is a very unique requirement that doesn't apply to most of the nails I listed above (databases, hosting content, key distribution, etc.), so we should be skeptical of proposals that use a blockchain + proof-of-work without having an explicit need for it, because the ecological costs of using proof-of-work are far greater than zero.
 
-Is Bitcoin ever going to be worth this kind of energy cost?
+[insert screenshot of the motherboard post]
 
-We can already run transactions online.
-Perhaps, one day in the future, Bitcoin will remove a little friction around micropayments.
-Hurray?
-I frequently describe myself as a "decentralization nut" and for me, this just isn't worth the ecological impact.
+Headlines like this are a bit clickbaity, but their alarmed tone isn't totally off-base. For every proof-of-work-based network that exists, we should question if it's necessary and appropriate for the challenges at hand.
 
-The more I've worked in this space -- on [Secure Scuttlebutt](https://scuttlebutt.nz) first, and now on the [Dat](https://datproject.org) protocol and the [Beaker Browser](https://beakerbrowser.com) -- the more convinced I've become that blockchains are a huge step forward, but Proof-of-Work is a total mistake.
+To contextualized the cost of proof-of-work, consider [Alex de Vries'](https://digiconomist.net/), estimation(https://digiconomist.net/bitcoin-energy-consumption) that as Bitcoin miners compete with each other, they'll burn over 24 terawatt-hours of electricity annually. That's about as much as Nigeria, a country of 186 million people, uses in one year.
 
-And, for some people, that's a surprise.
-The way cryptocurrencies have been sold to us, it's reasonable to assume that Proof-of-Work and blockchains are one in the same.
-They are not!
-Nor do blockchains do not require Proof-of-Work.
-They're separate concepts; and blockchains can work without Proof-of-Work and still provide an enormous benefit.
+Furthermore, the amount of energy spent will increase as the value of Bitcoin increases, driven by speculation and the need for liquidity in other crypto currencies.
 
-In fact, I argue that Proof-of-Work is a political solution tacked onto blockchains -- a hail mary attempt to provide a cure-all to power dynamics -- and it completely fails at its purpose.
+I frequently describe myself as a "decentralization nut" and for me, the cost of using proof-of-work is just too high to accept as the solution to the challenges decentralized networks face.
+
+And the more I've worked in this space — on [Secure Scuttlebutt](https://scuttlebutt.nz) first, and now on the [Dat](https://datproject.org) protocol and the [Beaker Browser](https://beakerbrowser.com) — the more I'm sure that blockchains are a huge step forward, but proof-of-work is a mistake, and quite frankly a poor engineering choice in many cases.
+
+And, for some people, hearing that takes them by surprise.
+The way cryptocurrencies have been sold to us, it's reasonable to assume that proof-of-work and blockchains are one and the same.
+They're not!
+Nor do blockchains do not require proof-of-work.
+Blockchains and proof-of-work are entirely separate concepts, and blockchains can work without proof-of-work while still providing tremendous value.
+
+In fact, I argue that proof-of-work is a political solution tacked onto blockchains — a hail mary attempt to provide a cure-all to power dynamics — and it completely fails at its purpose.
 
 However!
-The data structure of a blockchain can be applied to traditional services to introduce cryptographic auditability, and it's the value of that use-case that I want to convince you of today.
+The data structure of a blockchain can be applied to traditional services to introduce incredibly valuable properties like cryptographic auditability, and it's the value of that specific use-case I hope to convince you of today.
 
 <br>
 
@@ -50,7 +47,7 @@ The data structure of a blockchain can be applied to traditional services to int
 
 Let's review the basics. A blockchain is a linked-list data structure in which every entry references the previous entry using a [cryptographic hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function).
 
-Here's what wikipedia says:
+From [Wikipedia](https://en.wikipedia.org/wiki/Blockchain):
 
 > A blockchain is a continuously growing list of records, called blocks, which are linked and secured using cryptography. Each block typically contains a hash pointer as a link to a previous block, a timestamp and transaction data.
 
@@ -60,15 +57,15 @@ Here's a blockchain visualized ([from "A blockchain in 200 lines of code"](https
 
 <br>
 
-## Why do they matter?
+## Why do blockchains matter?
 
-Blockchains create accountability.
+Blockchains enable accountability.
 
 The hash of each block encompasses the entire chain's history.
 If you change one bit of the history, all subsequent blocks' hashes change.
 
-By encompassing the history in each hash, we make it easy to compare that history.
-Two computers can quickly check hash equality with each other.
+By encompassing the history in each hash, it becomes easy to compare that history.
+Two computers can quickly check hash equality with each other to confirm that their history logs match.
 
 <img src="/assets/img/checkin.gif" class="centered">
 
@@ -81,13 +78,13 @@ A split history is a sign of a lie or corruption, and it means the blockchain au
 
 Because the blocks are signed, any user with evidence of a split history can prove to the network that the blockchain has been corrupted.
 
-Therefore, blockchains enforce an "append only" constraint, and enables peers to efficiently monitor the blockchain author.
+Therefore, blockchains enforce an "append-only" constraint, and enables peers to efficiently monitor the blockchain author.
 
 <br>
 
 ## What is Proof-of-Work?
 
-Proof-of-Work is a system for creating "decentralized consensus."
+Proof-of-work is a system for establishing "decentralized consensus".
 
 It's a kind of computation which takes a predictable amount of time to run.
 Agreeing about the order of events is very difficult in computer networks, especially if you can't trust the other computers involved.
@@ -98,7 +95,7 @@ Proof-of-Work solves that problem by putting the network on a trustworthy clock.
 ## Ok, what's decentralized consensus?
 
 Decentralized consensus is a system where multiple computers can make additions to a blockchain without having to trust each other.
-This involves a lot of technical coordination - thus Proof-of-Work.
+This involves a lot of technical coordination - thus the requirement for Proof-of-Work.
 
 Decentralized consensus *is intended* to mean that one entity can't control the blockchain network.
 Any newcomer can participate, and ownership is equally distributed among the participants.
@@ -138,7 +135,7 @@ It doesn't seem like a unique victory over political realities, and it *still* c
 
 ## Ok, what about Proof-of-Stake?
 
-Some folks in the crypto-coin world -- most notably, Ethereum -- have been working on a new solution for decentralized consensus called Proof-of-Stake.
+Some folks in the cryptocoin world -- most notably, Ethereum -- have been working on a new solution for decentralized consensus called Proof-of-Stake.
 It is an attempt to solve the cost problem of Proof-of-Work, and it involves no excessive energy use.
 
 I like the spirit of Proof-of-Stake, because it tries to solve the problem, but I'm going to point out two things:
@@ -164,13 +161,9 @@ Until then, let's talk about another option that I think can work just fine: ser
 
 ## Services with blockchains
 
-What most people don't realize ... hmm, wait.
-I got some feedback here.
+It is the case that blokchains and proof-of-work are two separate concepts, but I worry that the hype around blokchains has inextricably linked the two, so I'm going to switch to a different term to talk about blockchains: **secure ledgers**.
 
-While I'm told I did a wonderful job explaining that "blockchain" does not refer to Proof-of-Work, I'm told that hype is too strong, and that I need to use another term.
-So I'm going to use another term instead: **secure ledgers**.
-
-Conceptually it's exactly the same, but it's a bit more generic, and it has no baggage of connection to PoW.
+Conceptually I'm referring to the exact same data structure that a blockchain is, but hopefully "secure ledger" is a bit more descriptive, and most importantly has no baggage or connection to proof-of-work.
 Got it?
 Ok.
 
