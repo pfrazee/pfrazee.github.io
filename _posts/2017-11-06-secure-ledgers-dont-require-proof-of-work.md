@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Secure ledgers don't require proof-of-work
-desc: 
+desc: Like in crypto-currencies, secure ledgers solve a question of trust for services - but they don't require proof-of-work to do it.
 ---
 
 As Bitcoin, Ethereum, and other blockchain-based systems have gained popularity, there's been a push in the decentralized Web space to use blockchains as a hammer for every nail: databases, user identity, key distribution, and even basic hosting.
