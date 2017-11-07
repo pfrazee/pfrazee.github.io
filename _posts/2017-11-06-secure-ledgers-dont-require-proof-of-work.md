@@ -32,6 +32,8 @@ Bitcoin miners are incentivized to spend electricity up to the probability of a 
 For a simple example, if you have a .01% chance at winning Bitcoin worth $10k, you'd be smart to spend up to a dollar's worth of electricity per round to win.
 That's what's happening here, all around the world, with rounds occurring every ten minutes.
 
+From [the article above](https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change):
+
 > Alex de Vries, aka [Digiconomist](https://digiconomist.net/bitcoin-energy-consumption), estimates that with prices the way they are now, it would be profitable for Bitcoin miners to burn through over 24 terawatt-hours of electricity annually as they compete. ... That's about as much as Nigeria, a country of 186 million people, uses in a year.
 
 Furthermore, the amount of energy spent will increase as the value of Bitcoin increases, driven by speculation and the need for liquidity in other crypto currencies.

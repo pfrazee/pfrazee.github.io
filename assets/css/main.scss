@@ -23,7 +23,7 @@ h1 {
 }
 p {
 	font-size: 1em;
-	line-height: 150%;
+	line-height: 1.4;
 	text-align: justify;
 }
 a {
@@ -55,7 +55,7 @@ ul, ol {
 	li {
 		padding: 5px;
 		padding-left: 10px;
-		line-height: 150%;
+		line-height: 1.4;
 	}
 }
 blockquote {
@@ -200,12 +200,12 @@ blockquote {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.4;
 			margin-bottom: 15px;
 		}
 		blockquote {
 			padding: 10px 10px;
-			line-height: 150%;
+			line-height: 1.4;
 			margin: 15px 0;
 		}
 		a {
@@ -276,7 +276,7 @@ blockquote {
 			margin: 10px;
 			margin-bottom: 15px;
 			padding: 10px;
-			line-height: 1.5;
+			line-height: 1.4;
 			border-radius: 3px;
 			background: $color-grey;
 			code {
@@ -308,7 +308,7 @@ blockquote {
 		}
 		p {
 			font-size: 1em;
-			line-height: 150%;
+			line-height: 1.4;
 			margin-bottom: 10px;
 		}
 	}
