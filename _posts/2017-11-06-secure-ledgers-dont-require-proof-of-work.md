@@ -193,7 +193,7 @@ That ledger is then published for clients to actively sync and monitor.
 Why?
 Accountability.
 
-Clients can monitor the ledger and, just as in decentralized consensus, ensure the host is following a set of business rules.
+Clients can monitor the ledger, and, just as in decentralized consensus, ensure the host is following a set of business rules.
 The business rules would be published, either as a set of code files on the ledger, or out of band.
 The monitors follow the ledger and replay the inputs against the published code.
 If the outputs or the state on the ledger ever starts to deviate from the rules of the code, you know the host is doing something fishy, and you can prove it.

@@ -10,13 +10,17 @@
 body {
 	color: $color-black;
 	background: #fff;
-	font-family: 'Inconsolata';
-	font-size: 100%;
+	font-family: system-ui, BlinkMacSystemFont, ‘Helvetica Neue’, Helvetica, sans-serif;
 	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
 }
 hr {
 	border: 0;
 	border-top: 1px solid #ddd;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Inconsolata';
 }
 h1 {
 	margin-bottom: 5px;
@@ -110,6 +114,7 @@ blockquote {
     }
 	}
 	ul {
+		font-family: 'Inconsolata';
 		margin-top: 10px;
 		li {
 			display: inline;
@@ -193,7 +198,7 @@ blockquote {
 			margin-bottom: 10px;
 		}
 		h2 {
-			font-size: 1.1em;
+			font-size: 1.2em;
 			font-weight: 700;
 			margin-top: 25px;
 			margin-bottom: 5px;
