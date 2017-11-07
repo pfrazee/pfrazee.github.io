@@ -15,7 +15,7 @@ But, we're not evaluating the cost of proof-of-work properly, and we need to con
 
 Blockchains are used to enable networks of computers to run a database without trusting each other.
 Because the computers don't trust each other, the network needs a way to make sure that no one is adding fraudulent transactions to the database.
-In these sorts of cases, a mechanism called proof-of-work is used to help prevent fradulent transactions.
+In these sorts of cases, a mechanism called proof-of-work is used to help prevent fraudulent transactions.
 
 In a proof-of-work-based system, adding a transaction to the shared ledger requires the transactor to run a large amount of "frivolous" computation.
 Doing computation requires electricity, so all proof-of-work based systems require using large amounts of electricity to function.
@@ -28,8 +28,8 @@ This wouldn't necessarily be a problem, except that proof-of-work systems are ar
 
 The thing is, that headline isn't totally off-base.
 
-Bitcoin miners are incentivized to spend electricity up to the probability of a win multiplied by the current valuation of a BtC.
-For a simple example, if you have a .01% chance at winning Bitcoin worth $10k, you'd be smart to spend up to a dollar's worth of electricity per round to win.
+Bitcoin miners are incentivized to spend electricity up to the probability of a win multiplied by the current valuation of a BTC.
+For a simple example, if you have a 0.01% chance at winning Bitcoin worth $10k, you'd be smart to spend up to a dollar's worth of electricity per round to win.
 That's what's happening here, all around the world, with rounds occurring every ten minutes.
 
 From [the article above](https://motherboard.vice.com/en_us/article/ywbbpm/bitcoin-mining-electricity-consumption-ethereum-energy-climate-change):
@@ -120,11 +120,11 @@ Decentralized consensus places control of the network into a purchasable metric.
 With proof-of-work, that metric is hashing power.
 
 It's actually a cool idea.
-Hashing power is created by computing hardware, and you don't need to ask anyone permission to buy computers.
+Hashing power is created by computing hardware, and you don't need to ask anyone's permission to buy computers.
 So it's a very populist idea: anybody can get involved at will.
 
 Unfortunately, like any good capitalist system, having *capital* is a prerequisite to having *power* when it comes to PoW.
-Sure your laptop can start mining over night, but you're competing in a lottery where the odds of success are directly tied to the amount of capital you invest, and people are investing a lot of money into their mining hardware.
+Sure your laptop can start mining overnight, but you're competing in a lottery where the odds of success are directly tied to the amount of capital you invest, and people are investing a lot of money into their mining hardware.
 
 Therefore whether decentralized consensus solves the issue of political ownership is really dependant on circumstance.
 For the system to stay decentralized, ownership can never be concentrated beyond 50% - but that's just a question of how much money you're willing to spend.
@@ -134,12 +134,12 @@ Are we certain that will never happen to Bitcoin?
 
 Decentralized consensus also fails to consider the political reality of human networks.
 The protocols need changes over time, and changes mean governance.
-In Bitcoin, acceptance of a change is signalled by the miners - once some percent of the miners agree, the change is accepted.
+In Bitcoin, acceptance of a change is signaled by the miners - once some percent of the miners agree, the change is accepted.
 This means that hashing power is used as a measure of voting power, and so the political system is essentially plutocratic.
 How is that significantly better than the board of a publicly traded company?
 
 This is why I'm unimpressed with decentralized consensus as a political solution.
-Bitcoin has been wildly unstable, with controversies and forks happening querterly.
+Bitcoin has been wildly unstable, with controversies and forks happening quarterly.
 I personally suspect stability will actually mean "dominant ownership."
 It doesn't seem like a unique victory over political realities, and it *still* comes with the high cost of proof-of-work.
 
@@ -187,7 +187,7 @@ What most people don't realize is that you can get a lot of value from <strike>b
 Here's how:
 
 Instead of a network of miners, you use a single host.
-That host mantains a secure ledger which contains the host state and its activity log, including all requests and their results.
+That host maintains a secure ledger which contains the host state and its activity log, including all requests and their results.
 That ledger is then published for clients to actively sync and monitor.
 
 Why?
@@ -245,10 +245,10 @@ A ledger-backed service could manipulate the order in which it handles requests,
 You could combat that problem using a third-party proxy, which logs the attempted calls and notes the responses from the host.
 The other downside is that, without decentralized consensus, the only way to handle a misbehaving service is to stop using it - whereas Bitcoin can just ignore the misbehaving miner.
 
-As a proof-of-concept, I wrote an ledger-backed server called [NodeVMS](https://nodevms.com) which uses code from [Dat](https://datproject.org) to provide the secure ledger.
+As a proof-of-concept, I wrote a ledger-backed server called [NodeVMS](https://nodevms.com) which uses code from [Dat](https://datproject.org) to provide the secure ledger.
 (Dat contains a secure ledger implementation called Hypercore, typically used for distributing files in a p2p mesh.
 Here it's used to distribute the state and activity log of the service.)
-VMS is not at production-ready, but it demonstrates the core ideas of this design.
+VMS is not production-ready, but it demonstrates the core ideas of this design.
 
 <br>
 
@@ -260,7 +260,7 @@ Ask yourself:
 
  - Is it decentralized consensus you want, or just improved accountability and better trust?
  - Am I certain that I need strict global consensus?
- - Could I solve the ownership problem by using peer-to-peer publishing, eg with [Dat](https://datproject.org)?
+ - Could I solve the ownership problem by using peer-to-peer publishing, e.g. with [Dat](https://datproject.org)?
  - Could I solve the choice problem with configurable endpoints?
  - Do I really need to burn all that energy to power my app?
 
