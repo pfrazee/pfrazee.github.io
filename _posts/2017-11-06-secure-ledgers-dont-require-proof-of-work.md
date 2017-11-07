@@ -269,3 +269,5 @@ I suspect that, for a lot of people, a service with a secure ledger is enough.
 <p style="color: gray">
   If you liked this post, be sure to check out my work with the <a href="https://beakerbrowser.com">Beaker Browser</a> and it's companion project, the <a href="https://datproject.org">Dat protocol</a>.
 </p>
+
+Thanks to [Tara](https://twitter.com/taravancil), [Vito](https://twitter.com/vitor_io), [Andrew](https://twitter.com/cblgh), [John](https://twitter.com/JohnDotAwesome), [Brian](https://twitter.com/briancarlson), [Mafintosh](https://twitter.com/mafintosh), and everybody in #beakerbrowser for their feedback and help writing this post.
