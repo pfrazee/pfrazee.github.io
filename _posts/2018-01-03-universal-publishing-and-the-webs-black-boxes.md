@@ -2,6 +2,7 @@
 layout: post
 title: Universal publishing and the Web's black boxes
 desc: Just because something is accessible by browser does not make it part of the Web.
+thumb: https://pfrazee.hashbase.io/assets/img/agree-action.png
 ---
 
 Just because something is accessible by browser does not make it part of the Web.
@@ -85,8 +86,12 @@ Previously, I [proposed using non-standard services on top of the Dat network](h
 <hr>
 <br>
 
-<p><small id="1"><a href="#_1"><sup>1</sup></a> Some notable efforts to create universal data encodings in HTML are <a href="https://rdfa.info/">RDFa</a> and <a href="https://en.wikipedia.org/wiki/Microdata_(HTML)">Microdata</a>, both of which are supported by the huge <a href="http://schema.org/">Schema.org</a> library. Schema.org and those encoding formats have been very successful for creating universal meaning, driven by Google's use-case of extracting data for search results. Unfortunately these tools handle meaning but not functionality, and we need both.</small></p>
+<p><small id="1"><a href="#_1">1</a> Some notable efforts to create universal data encodings in HTML are <a href="https://rdfa.info/">RDFa</a> and <a href="https://en.wikipedia.org/wiki/Microdata_(HTML)">Microdata</a>, both of which are supported by the huge <a href="http://schema.org/">Schema.org</a> library. Schema.org and those encoding formats have been very successful for creating universal meaning, driven by Google's use-case of extracting data for search results. Unfortunately these tools handle meaning but not functionality, and we need both.</small></p>
 
-<p><small id="2"><a href="#_2"><sup>2</sup></a> You might want to improve specificity with with <a href="https://json-ld.org/">JSON-LD</a>.</small></p>
+<p><small id="2"><a href="#_2">2</a> You might want to improve specificity with with <a href="https://json-ld.org/">JSON-LD</a>.</small></p>
 
-<p><small id="3"><a href="#_3"><sup>3</sup></a> Dat also excites us because it is versioned, works offline, syncs efficiently, scales automatically via peer seeding, and cryptographically addresses its files. In case you're curious: Dat is not yet a Web standard, but it's gaining adoption as we're now adding support for a second browser— first <a href="https://beakerbrowser.com">Beaker</a>, now <a href="https://brave.com">Brave</a>. We're also beginning to <a href="https://github.com/datprotocol/web-specs">write specifications</a> for further adoption.</small></p>
+<p><small id="3"><a href="#_3">3</a> Dat also excites us because it is versioned, works offline, syncs efficiently, scales automatically via peer seeding, and cryptographically addresses its files. In case you're curious: Dat is not yet a Web standard, but it's gaining adoption as we're now adding support for a second browser— first <a href="https://beakerbrowser.com">Beaker</a>, now <a href="https://brave.com">Brave</a>. We're also beginning to <a href="https://github.com/datprotocol/web-specs">write specifications</a> for further adoption.</small></p>
+
+<br>
+
+Thank you to [Tara Vancil](https://twitter.com/taravancil) for her edits and feedback on this post.
