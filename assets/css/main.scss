@@ -26,30 +26,27 @@ h1 {
 	margin-bottom: 5px;
 }
 p {
-	font-size: 1em;
+	font-size: 14px;
 	line-height: 1.4;
-	text-align: justify;
 }
 a {
   color: $color-link;
   text-decoration: none;
   &:visited {
-	color: $color-link;
-	text-decoration: none;
+		color: $color-link;
   }
   &:hover {
-	color: $color-link;
-	text-decoration: none;
-	padding-bottom: 1px;
-	border-bottom: 1px solid $color-link;
+	  text-decoration: underline;
   }
   &:active {
-	color: $color-link;
-	text-decoration: none;
+		color: $color-link;
   }
 }
 small {
 	font-size: 85%;
+}
+pre, code {
+	font-family: 'Inconsolata';
 }
 .center {
 	text-align: center;
@@ -63,7 +60,7 @@ ul, ol {
 	}
 }
 blockquote {
-	border-left: 10px solid #ddd;
+	border-left: 15px solid #ddd;
 	padding-left: 10px;
 	color: #555;
 
@@ -125,7 +122,6 @@ blockquote {
 	.bio {
     margin: 2rem 0;
     color: #777;
-    font-size: 0.9em;
   }
   .rss {
   	img {
@@ -154,6 +150,10 @@ blockquote {
 		padding-bottom: 2px;
 		text-decoration: none;
 		border-bottom: 3px solid $color-black;
+	}
+	.date {
+    font-family: 'Inconsolata';
+    font-size: 12px;
 	}
 }
 
@@ -203,22 +203,24 @@ blockquote {
 			margin-top: 25px;
 			margin-bottom: 5px;
 		}
+		h3 {
+			font-weight: 700;
+		}
 		p {
-			font-size: 1em;
+			font-size: 14px;
 			line-height: 1.4;
 			margin-bottom: 15px;
 		}
 		blockquote {
-			padding: 10px 10px;
+			padding: 10px 20px;
 			line-height: 1.4;
-			margin: 15px 0;
+			margin: 20px 0;
 		}
 		a {
+		  text-decoration: underline;
 			padding-bottom: 1px;
-			border-bottom: 1px solid $color-link;
 			&:hover {
 				background-color: $color-grey;
-				text-decoration: none;
 			}
 		}
 		strong {
@@ -244,7 +246,7 @@ blockquote {
 			margin-left: 40px;
 		}
 		ul, ol {
-			font-size: 1em;
+			font-size: 14px;
 			margin-bottom: 15px;
 			li {
 				padding: 5px;
