@@ -25,7 +25,7 @@ As a counter-example, Reddit upvotes are *not* universal. They only work on Redd
 
 Standard HTML tags are not the only way to establish universality on the Web, but they are one way.<a href="#1" id="_1"><sup>1</sup></a> The test for universality is a simple question:
 
-> Would $featureX function or have meaning if it were disconnected from a specific service?
+> Would this feature function or have meaning if it were disconnected from a specific service?
   
 If the answer is yes, then it is universal.
 
