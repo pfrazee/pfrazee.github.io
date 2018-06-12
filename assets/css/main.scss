@@ -54,7 +54,6 @@ pre, code {
 ul, ol {
 	list-style: none;
 	li {
-		padding: 5px;
 		padding-left: 10px;
 		line-height: 1.4;
 	}
@@ -120,8 +119,9 @@ blockquote {
 		}
 	}
 	.bio {
-    margin: 2rem 0;
+    margin: 1rem 0;
     color: #777;
+    font-size: 13px;
   }
   .rss {
   	img {
@@ -150,6 +150,9 @@ blockquote {
 		padding-bottom: 2px;
 		text-decoration: none;
 		border-bottom: 3px solid $color-black;
+	}
+	ul li {
+		line-height: 1.75;
 	}
 	.date {
     font-family: 'Inconsolata';
@@ -201,10 +204,11 @@ blockquote {
 			font-size: 1.2em;
 			font-weight: 700;
 			margin-top: 25px;
-			margin-bottom: 5px;
+			margin-bottom: 15px;
 		}
 		h3 {
 			font-weight: 700;
+			margin-bottom: 15px;
 		}
 		p {
 			font-size: 14px;
@@ -249,8 +253,6 @@ blockquote {
 			font-size: 14px;
 			margin-bottom: 15px;
 			li {
-				padding: 5px;
-				padding-left: 5px;
 				@media screen and (max-width: $br) {
 					padding: 10px 0 10px 0;
 				}
