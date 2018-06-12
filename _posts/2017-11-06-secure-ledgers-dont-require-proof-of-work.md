@@ -6,7 +6,7 @@ desc: Like in crypto-currencies, secure ledgers solve a question of trust for se
 
 As Bitcoin, Ethereum, and other blockchain-based systems have gained popularity, there's been a push in the decentralized Web space to use blockchains as a hammer for every nail: databases, user identity, key distribution, and even basic hosting.
 
-I think this is *almost* a great idea!
+I think this is almost a great idea.
 But, we're not evaluating the cost of proof-of-work properly, and we need to consider whether we need it at all.
 
 <br>
@@ -15,9 +15,9 @@ But, we're not evaluating the cost of proof-of-work properly, and we need to con
 
 Blockchains are used to enable networks of computers to run a database without trusting each other.
 Because the computers don't trust each other, the network needs a way to make sure that no one is adding fraudulent transactions to the database.
-In these sorts of cases, a mechanism called proof-of-work is used to help prevent fraudulent transactions.
+In these sorts of cases, a mechanism called proof-of-work is used to help prevent a kind of fraudulent transactions.
 
-In a proof-of-work-based system, adding a transaction to the shared ledger requires the transactor to run a large amount of "frivolous" computation.
+In a proof-of-work-based system, adding a transaction to the shared ledger requires the transactor to run a large amount of frivolous computation.
 Doing computation requires electricity, so all proof-of-work based systems require using large amounts of electricity to function.
 
 This wouldn't necessarily be a problem, except that proof-of-work systems are architected intentionally to require excess computation in order to meet a requirement of decentralized consensus.

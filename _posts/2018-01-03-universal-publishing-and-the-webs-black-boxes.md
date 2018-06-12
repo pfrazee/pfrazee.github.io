@@ -33,7 +33,7 @@ If the answer is yes, then it is universal.
 
 So, why don't we have universal activities? Why is the Web still full of black box services?
 
-In part, I think it's because *publishing* on the Web has never been universal. Publishing depends on servers, and server behaviors are largely custom. There are no standard HTTP verbs for writing a file to a specific location, or for how to format the data in that specific file. Services interpret HTTP requests however they like within some broad standards, and rarely agree on anything other than the [idempotency](https://en.wikipedia.org/wiki/Idempotence) of GET. While that flexibility is a benefit for Getting Things Done(tm), it makes universality difficult to accomplish.
+In part, I think it's because *publishing* on the Web has never been universal. Publishing depends on servers, and server behaviors are largely custom. There are no standard HTTP verbs for writing a file to a specific location, or for how to format the data in that specific file. Services interpret HTTP requests however they like within some broad standards. While that flexibility is a benefit for Getting Things Done(tm), it makes universality difficult to accomplish.
 
 If servers were to adopt standard publishing verbs, we'd be a step closer to universal activities. Rather than using custom server behaviors, an application would read and write files using the standard publishing verbs. Those verbs would be usable by any application that understands them, and would make it possible to swap one service for another. Applications would then be able to coordinate by simply sharing their data schemas.
 
