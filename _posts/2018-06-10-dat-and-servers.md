@@ -8,7 +8,7 @@ By default, sites and apps built on `dat://` don't use servers. When someone vis
 
 When an app needs to do something like store data or manage a user's profile, it can use Beaker's [DatArchive APIs](https://beakerbrowser.com/docs/apis/dat.html) to write data directly to itself, or to another `dat://` website. This allows apps to manage data without ever connecting to a backend host. This is convenient and quite powerful! But in some cases `dat://` sites still need to interact with servers.
 
-In this post, I'll describe some of the challenges related to `dat://` apps interacting with servers, and share some thoughts about how [Beaker](https://beakerbrowser.com) might approach those challengs.
+In this post, I'll describe some of the challenges related to `dat://` apps interacting with servers, and share some thoughts about how [Beaker](https://beakerbrowser.com) might approach those challenges.
 
 ## 1. Cross-origin resource sharing (CORS)
 
@@ -19,13 +19,13 @@ A webpage can access its own host server, but can't access any other server. Tha
 So, while this is typically not possible:
 
 ```
-foo.com/index.html ---GET---> bar.com/pic.jpg
+foo.com/index.html ---GET---> bar.com/data.json
 ```
 
 You can solve it by routing the request through your host server:
 
 ```
-foo.com/index.html ---GET---> foo.com ---GET---> bar.com/pic.jpg
+foo.com/index.html ---GET---> foo.com ---GET---> bar.com/data.json
 ```
 
 In `dat://` sites, there is no host server, so that's not possible! There's no server to route the request through.
