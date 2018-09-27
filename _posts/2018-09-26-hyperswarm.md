@@ -23,7 +23,7 @@ So [Mafintosh](https://twitter.com/mafintosh) decided to solve this by creating 
 
 <img class="centered" src="/assets/img/hyperswarm.png">
 
-[Hyperswarm](https://github.com/hyperswarm) is a stack of networking modules for finding peers and creating reliable connections. Users join the swarm for a "topic" and query periodically for other peers who are in the topic. When ready to connect, Hyperswarm helps create a socket between them using either UTP or TCP.
+[Hyperswarm](https://github.com/hyperswarm) is a stack of networking modules for finding peers and creating reliable connections. Users join the swarm for a "topic" and query periodically for other peers who are in the topic. When ready to connect, Hyperswarm helps create a socket between them using either UDP or TCP.
 
 Hyperswarm uses a [Kademlia DHT](https://en.wikipedia.org/wiki/Kademlia) to track peers and arrange connections. The DHT itself includes mechanisms to [holepunch NATs](https://en.wikipedia.org/wiki/Hole_punching_(networking)). For LAN-based discovery, we currently use multicast DNS.
 
