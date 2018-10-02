@@ -1,8 +1,9 @@
 ---
 layout: post
-thumb: hyperswarm.png
-title: "Hyperswarm, a distributed networking stack for connecting peers"
-desc: "By default dat:// sites and apps work without servers, So when a dat:// app needs to interact with a server, how will it work?"
+thumb: "https://pfrazee.hashbase.io/assets/img/hyperswarm.png"
+twitter_card: summary
+title: "Announcing Hyperswarm"
+desc: "A distributed networking stack for connecting peers"
 ---
 
 <p style="font-size: 130%; padding: 1rem; border: 1px solid #ddd; margin-bottom: 40px">
@@ -13,11 +14,11 @@ You may or may not be surprised to hear that connecting two computers over the I
 
 <img class="centered" src="/assets/img/guess-ill-not-connect.png">
 
-This is a challenge for [Dat](https://datproject.org/) and the [Beaker browser](http://beakerbrowser.com/). Dat is a peer-to-peer network which needs to reliably connect users over the Internet and over LANs. Beaker uses Dat to serve Websites without needing servers.
+This is a challenge for [Dat](https://datproject.org/) and the [Beaker browser](http://beakerbrowser.com/). Dat is a peer-to-peer network which needs to reliably connect users over the Internet and over LANs. Beaker uses Dat to serve websites without needing servers.
 
 We currently rely on a [tracker](https://en.wikipedia.org/wiki/BitTorrent_tracker) to get users connected. This is a tracker that we run, which isn't ideal because we want Dat to be decentralized. We tried using [BitTorrent's Mainline DHT](https://en.wikipedia.org/wiki/Mainline_DHT) but the results just weren't very good. Mainline doesn't have the tools to [hole-punch](https://en.wikipedia.org/wiki/Hole_punching_(networking)) so the connections frequently failed, and live tests tended to give a lot of false-positives with few good hits.
 
-So [Mafintosh](https://twitter.com/mafintosh) decided to solve this by creating a new DHT which fits our needs.
+So [mafintosh](https://twitter.com/mafintosh) decided to solve this by creating a new DHT which fits our needs.
 
 ## Announcing the Hyperswarm preview
 
