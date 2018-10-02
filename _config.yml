@@ -2,6 +2,7 @@
 permalink: /blog/:title
 show_drafts: true
 include: [".well-known"]
+keep_files: [".datignore", "dat.json", "favicon.ico"]
 
 # My variables
 title: Paul Frazee
