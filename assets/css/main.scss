@@ -87,12 +87,9 @@ blockquote {
     padding-bottom: 2rem;
     border-bottom: 1px solid #ddd;
 
-    .bio {
-    	display: none;
-    }
-
+    .bio,
     .rss {
-    	float: right;
+    	display: none;
     }
 	}
 
@@ -152,11 +149,20 @@ blockquote {
 		border-bottom: 3px solid $color-black;
 	}
 	ul li {
+		display: flex;
 		line-height: 1.75;
+
+		@media (max-width: 560px) {
+			flex-direction: column;
+			padding-left: 0px;
+		}
 	}
 	.date {
     font-family: 'Inconsolata';
     font-size: 12px;
+    line-height: 27px;
+    white-space: nowrap;
+    margin-right: 10px;
 	}
 }
 
@@ -261,7 +267,7 @@ blockquote {
 				margin-bottom: 0;
 			}
 			@media screen and (max-width: $br) {
-				margin-left: 10px;
+				margin-left: 20px;
 			}
 		}
 		img {
