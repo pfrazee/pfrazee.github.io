@@ -68,6 +68,22 @@ blockquote {
 	}
 }
 
+table {
+	margin: 10px 10px 25px;
+	font-size: 14px;
+}
+
+table th {
+	font-size: 80%;
+	color: gray;
+}
+
+table td,
+table th {
+	text-align: left;
+	padding: 2px 6px;
+}
+
 .wrapper {
 	padding: 20px 20px 60px 20px;
 	@media screen and (max-width: $br) {
