@@ -1,8 +1,8 @@
 ---
 layout: post
 thumb: "https://pfrazee.hashbase.io/assets/img/unwalled.jpg"
-title: "The Unwalled.Garden protocol - souped-up RSS for p2p social apps"
-twitter_card: summary
+title: "Unwalled.Garden: souped-up RSS for P2P social apps"
+twitter_card: summary_large_image
 desc: "Beaker is an experimental peer-to-peer Web browser. In this post, I will describe a new files-oriented protocol we are developing called Unwalled.Garden which will drive the applications stack for Beaker sites."
 ---
 
